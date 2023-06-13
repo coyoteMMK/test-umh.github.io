@@ -13,672 +13,646 @@ const data = {
   },
   item2: {
     id: "2",
-    title: "Una ventaja de los Data Warehouse es que",
+    title: "El primer campo en el que se detectaron problemas de gestión de datos a nivel de Volumen, Velocidad y Variedad fue",
     first:
-      "Almacena las decisiones tomadas en el pasado para evaluarlas más adelante",
+      "El Big Data",
     second:
-      "Da soporte a los sistemas de información para la toma de decisiones",
-    third: "Distribuye mejor los datos por toda la organización",
+      "El comercio electrónico",
+    third: "Las redes sociales",
     fourth:
-      "Apenas requiere inversión ni formación por parte del personal ya que funciona como las aplicaciones de gestión convencionales",
+      "Los datos abiertos",
     answer: 2,
   },
   item3: {
     id: "3",
-    title: "Un data Mart es",
+    title: "Big Data: el concepto de Valor se refiere. . .",
     first:
-      "Una vista parcial de los datos de la empresa que combina partes de varios temas o departamentos relacionados de interés",
+      "Al beneficio que pueden general los datos",
     second:
-      "Una vista completa de los datos de la empresa, encriptada y comprimida para que ocupe menos espacio",
+      "Al coste de almacenar una cantidad tan grande de datos",
     third:
-      "Una vista completa de los datos de la empresa lista para ser distribuida más ágilmente",
+      "A la utilizad del sistema de análisis implementado",
     fourth:
-      "Una vista parcial de los datos de la empresa orientada a un área o tema concreto",
-    answer: 4,
+      "A la importancia de recopilar la mayor cantidad de datos posible",
+    answer: 1,
   },
   item4: {
     id: "4",
-    title: "Los procesos ETL son para",
+    title: "Big Data: el concepto de Variabilidad se refiere a. . .",
     first:
-      "Migrar datos, particularmente de un origen con una estructura predefinida para su distribución a múltiples destinos",
+      "Los diferentes significados que puede tener un mensaje según el contexto",
     second:
-      "Migrar datos, en general, de un o varios orígenes para su distribución a múltiples destinos",
+      "Los diferentes tipos de sistemas NoSQL disponibles para almacenar datos",
     third:
-      "Migrar datos, en general, de uno o varios orígenes a un destino concreto",
+      "Los diferentes formatos y estructuras en que se pueden presentar los datos",
     fourth:
-      "Migrar datos, particularmente de un origen con una estructura predefinida a un destino concreto",
-    answer: 3,
+      "Los diferentes pasos del proceso ETL para la recopilación de datos",
+    answer: 1,
   },
   item5: {
     id: "5",
-    title: "El enfoque Bottom-Up de un Almacén de datos defiende que",
+    title: "Big Data: el concepto de Variedad hace referencia a. . .",
     first:
-      "Los data marts de una empresa por sí solos hacen innecesario el almacén de datos",
+      "Las diferentes formas de almacenamiento NoSQL que hay disponibles en el mercado",
     second:
-      "El almacén de datos se construye uniendo todos los data marts de la empresa",
+      "Las diferentes técnicas analíticas que se pueden aplicar",
     third:
-      "Los data marts de la empresa son independientes del almacén de datos",
+      "Las diferentes bases de datos relacionales de que suele disponer una empresa",
     fourth:
-      "El almacén de datos se diseña primero y a partir de él se crean los data marts",
-    answer: 2,
+      "Las diferentes formas, estructuradas y no estructuradas, en que se pueden presentar los datos",
+    answer: 4,
   },
   item6: {
     id: "6",
-    title: "Sobre los sistemas heredados o 'Legacy systems', estos son",
+    title: "Big Data: el concepto de Velocidad hace referencia a. . .",
     first:
-      "Sistemas de información antiguos, de bajo coste y fácilmente actualizables",
+      "La rapidez con que los datos deben ser analizados",
     second:
-      "Sistemas de información antiguos y prescindibles, aunque interesantes para conocer la historia de la empresa",
+      "La rapidez con que los datos se transmiten por la red",
     third:
-      "Sistemas de información antiguos que normalmente se desechan por haber quedado obsoletos",
+      "La rapidez con que los datos son preprocesados",
     fourth:
-      "Sistemas de información antiguos pero críticos, no se puede prescindir de ellos",
+      "La rapidez con que los datos son generados",
     answer: 4,
   },
   item7: {
     id: "7",
-    title: "En el proceso ETL, al extraer",
+    title: "Big Data: el concepto de Veracidad se refiere a. . .",
     first:
-      "Hay que comprobar que los orígenes de datos son todo homogéneos con idénticas estructuras",
+      "La fiabilidad de los procesos analíticos que se aplican a los datos",
     second:
-      "Hay que asegurarse de que la copia de seguridad de los datos de origen se ha realizado correctamente",
+      "La fiabilidad tanto de los datos como de lo procesos analíticos que se aplican a los mismos",
     third:
-      "Hay que preprocesar los datos en el origen para que el migrarlos tengan el formato correcto",
+      "La fiabilidad de los datos",
     fourth:
-      "Hay que verificar que los datos de origen tienen la estructura y formatos esperados",
-    answer: 4,
+      "La fiabilidad tanto de los datos como de las redes de transmisión de la información",
+    answer: 2,
   },
   item8: {
     id: "8",
-    title: "En el proceso ETL, el área de 'Stage' o el ODS hacen referencia a",
+    title: "Big Data: el concepto de Visualización se refiere a. . .",
     first:
-      "Son las bases de datos de origen donde residen los datos que se quiere migrar",
+      "La necesidad de ver los pasos intermedios de un proceso de análisis para poder depurar errores",
     second:
-      "Son áreas de memoria temporales donde ejecutar las transformaciones antes de volcar los datos en el destino",
+      "La necesidad de mostrar los resultados de un análisis de forma inteligible",
     third:
-      "Son las tablas de datos de destino donde se volcaran los datos finalmente",
+      "La necesidad de visualizar los orígenes de datos de forma accesible",
     fourth:
-      "Son ficheros con metainformación sobre las estructuras de datos de origen y destino",
+      "La necesidad de monitorizar el proceso de diseño de consultas OLAP en un almacén de datos",
     answer: 2,
   },
   item9: {
     id: "9",
-    title: "En el proceso ETL, el proceso de carga necesita que",
+    title: "Big Data: el concepto de Volumen hace referencia a. . .",
     first:
-      "Se consideren restricciones de formato, claves y/o triggers del destino",
+      "La gran cantidad de datos disponibles",
     second:
-      "Se consideren restricciones de formato, claves y/o triggers del origen",
+      "La gran cantidad de fuentes de información que hay accesibles",
     third:
-      "Se consideren los data marts existen en la organización y a que áreas pertenecen",
-    fourth: "Se consideren los periodos de latencia en la transmisión de datos",
+      "La gran cantidad de redes sociales que existen en la actualidad",
+    fourth: "La gran cantidad de dinero y recursos que cuesta almacenar la información",
     answer: 1,
   },
   item10: {
     id: "10",
-    title: "La diferencia entre ETL y ELT es",
+    title: "En el proceso de Big Data, durante la recopilación de datos es muy importante. . .",
     first:
-      "En ETL la carga es sobre una base de datos de destino y en ELT puede ser en ficheros con formato JSON, XML o similar",
+      "Saber que proceso analítico se aplicará más adelante",
     second:
-      "En ETL la extracción se lleva a cabo en orígenes de datos diversos y heterogéneos y en ELT se hace sobre orígenes de datos de igual estructura",
+      "Determinar cuáles datos hay que recopilar y cuáles desechar",
     third:
-      "En ELT la transformación es un proceso atómico mientras que en ETL no lo es",
+      "Conocer la estructura de datos de destino donde se almacenarán los datos recopilados",
     fourth:
-      "En ELT la transformación se realiza al final en el destino mientras que en ETL se hace en un área intermedia",
-    answer: 4,
+      "Que los orígenes de datos estén convenientemente estructurados",
+    answer: 2,
   },
   item11: {
     id: "11",
-    title: "Sobre los Data Lake",
+    title: "En el proceso de Big Data, en la etapa de almacenamiento de datos es muy importante. . .",
     first:
-      "Son repositorios de datos alternativos y excluyentes de los data warehouse",
+      "Saber con qué objetivo la empresa almacena dichos datos",
     second:
-      "Son repositorios de datos donde se hace una copia idéntica a los de origen",
+      "Determinar si los algoritmos de análisis que se van a aplicar van a ser descriptivos o predictivos",
     third:
-      "Son repositorios de datos con una estructura de los datos mucho más estricta que la de los data warehouse",
+      "Conocer si los datos son estructurados, semi-estructurados o desestructurados",
     fourth:
-      "Son repositorios de datos para copias de seguridad de los datos operacionales",
-    answer: 2,
+      "Que los orígenes de datos estén preprocesados previamente",
+    answer: 3,
   },
   item12: {
     id: "12",
-    title: "El concepto 'Sociedad del Conocimiento' hace referencia a",
+    title: "En el proceso de Big Data, en la etapa de procesamiento y análisis de datos es muy importante. . .",
     first:
-      "Los cambios sociales producidos por la amplia distribución de datos e información en general",
+      "Saber qué objetivo quiere abordar la empresa para determinar la técnica analítica que se podría ",
     second:
-      "Los cambios sociales producidos por los 'Influencers' de las redes sociales",
-    third: "Los cambios sociales producidos por la Inteligencia Artificial",
+      "Determinar como se quiere que sea la salida gráfica de los resultados",
+    third: "Indicar qué datos hay que recopilar y cuáles desechar",
     fourth:
-      "Los cambios sociales producidos por los dispositivos 'smart' (teléfonos, relojes, etc.)",
+      "Conocer si los datos son estructurados, semi-estructurados o desestructurados",
     answer: 1,
   },
   item13: {
     id: "13",
     title:
-      "Los cambios sociales producidos por la gran difusión y acceso a la información en general se conoce como",
-    first: "Sociedad Tecnolófica",
-    second: "Sociedad del Conocimiento",
-    third: "Sociedad Conectada",
-    fourth: "Sociedad 2.0",
-    answer: 2,
+      "En el proceso de Big Data, la visualización o muestra tiene por objetivo. . .",
+    first: "Que los resultados de la fase de análisis sean fáciles de entender",
+    second: "Que los resultados de la fase almacenamiento sean accesibles",
+    third: "Que los resultados de la fase de recopilación se puedan monitorizar",
+    fourth: "Que los resultados de la fase ETL puedan depurarse",
+    answer: 1,
   },
   item14: {
     id: "14",
-    title: "Sobre 'Aprendizaje' y 'Conocimiento' podemos decir que",
+    title: "Un proceso de Big Data consta de los siguientes pasos y en este orden",
     first:
-      "Se retroalimentan, Conocemos para aprender y al aprender obtenemos más conocimiento",
-    second: "El conocimiento sirve para aprender",
-    third: "Aprender genera nuevo conocimient",
+      "Recopilar datos → Almacenamiento → Análisis/Procesamiento → Muestra de resultados",
+    second: "Almacenamiento → Muestra de resultados → Análisis/Procesamiento",
+    third: "Almacenamiento → Recopilar datos → Análisis/Procesamiento → Muestra de resultados",
     fourth:
-      "Ambos conceptos son sinónimos y previos a la generación de información",
+      "Almacenamiento → Análisis/Procesamiento → Muestra de resultados",
     answer: 1,
   },
   item15: {
     id: "15",
-    title: "Una persona aprenderá más y mejor sobre un tema",
-    first: "Cuantos más libros lea sobre el tema del que se quiere aprender",
-    second: "Cuanto más involucrado está con el tema del que desea aprender",
-    third: "Cuando su motivación por dicho tema es mayor",
-    fourth: "Si parte de una base solida sobre dicho tema",
-    answer: 2,
+    title: "Principal diferencia entre un sistema de Big Data y un EIS (sistema de inf. para ejecutivos)",
+    first: "Los procesos de minería de datos usados en los EIS ya no son válidos en Big Data",
+    second: "El Big Data apoya la toma de decisiones de tipo más estratégico que el EIS",
+    third: "La naturaleza de los datos en el EIS es más estructurada",
+    fourth: "En el EIS el analista ayuda con la interpretación los resultados de análisis, en Big Data no",
+    answer: 3,
   },
   item16: {
     id: "16",
-    title: "Una persona aprenderá más y mejor sobre un tema",
-    first: "Cuando habla, debate y discute sobre ese tema",
-    second: "Cuando lee libros y escucha charlas sobre ese tema",
-    third: "Cuando enseña a otros sobre ese tema",
-    fourth: "Si parte de una base solida sobre dicho tema",
-    answer: 3,
+    title: "¿Qué es el Internet de las Nanocosas?",
+    first: "La conexión a la red de nanodispositivos",
+    second: "La nueva red de nanoconexiones a gran velocidad",
+    third: "La transmisión de nanodatos a través de la red",
+    fourth: "El procesamiento a nivel nano (diminuto) de los datos disponibles en la red",
+    answer: 1,
   },
   item17: {
     id: "17",
-    title: "Al aumentar rápidamente la generación de nuevo conocimiento",
+    title: "La nanotecnología va a dar lugar a un nuevo concepto de datos denominado. . .",
     first:
-      "El individuo particular suele estar confiado ya que las fuentes de dicho conocimiento suelen ser de confianza",
+      "Huge Data",
     second:
-      "El individuo particular suele estar más motivado a aprender más cosas",
+      "Big Data 2.0",
     third:
-      "El individuo particular es cada vez más consciente de que hay muchas cosas que no sabe",
-    fourth: "El individuo particular cada vez está mejor informado",
-    answer: 3,
+      "Great Data",
+    fourth: "Biggest Data",
+    answer: 1,
   },
   item18: {
     id: "18",
-    title: "Al aumentar rápidamente la generación de nuevo conocimiento",
+    title: "El concepto de base de datos surgió en la segunda mitad del siglo XX como solución para . . .",
     first:
-      "Las personas saben que las fuentes de dicho conocimiento suelen ser de confianza",
-    second: "Las personas están motivadas a estudiar y aprender más cosas",
-    third: "Las personas viven con una incertidumbre que deben gestionar",
-    fourth: "Las personas están cada vez mejor informadas",
-    answer: 3,
+      "Almacenar grandes cantidades de información",
+    second: "Separar los datos de la lógica de las aplicaciones",
+    third: "Introducir el lenguaje de consulta y manipulación de datos SQL",
+    fourth: "Disponer de un lugar donde guardar aplicaciones y documentos",
+    answer: 2,
   },
   item19: {
     id: "19",
-    title: "La paradoja de la Sociedad del Conocimiento hace referencia a que",
+    title: "En las bases de datos ACID, la característica Atomic implica que. . .",
     first:
-      "Pese a la amplia disponibilidad de datos e información, el individuo esta cada vez peor informado",
+      "Las colisiones entre transacciones deben ser Atómicas, es decir, ocurren de forma síncrona",
     second:
-      "Pese a las mejoras tecnológicas, resulta imposible aprender a manejar todo nuevo dispositivo que aparece en el mercado",
+      "Las transacciones son Atómicas, es decir, se cumple la regla de Todo o Nada",
     third:
-      "Pese a lo sofisticado de las técnicas analíticas de datos, su complejidad las aleja del público en general",
+      "En SQL, las peticiones de tipo SELECT deben ser Atómicas, es decir, no divisibles",
     fourth:
-      "Pese a la amplia difusión de las TICs, existen muchas zonas geográficas en el planeta donde aun no han llegado",
-    answer: 1,
+      "La persistencia de los datos siempre es Atómica, es decir, se conservan en un repositorio único",
+    answer: 2,
   },
   item20: {
     id: "20",
-    title: "Un problema de la Sociedad del Conocimientos es",
+    title: "En las bases de datos ACID, la característica Consistency significa que. . .",
     first:
-      "La dificultad para tener presencia en las principales redes sociales",
+      "La consistencia de las transacciones implica actualizaciones sincronizadas",
     second:
-      "La complejidad creciente para manejar los dispositivos tecnológicos",
-    third: "Los orígenes de datos e información son cada vez más numerosos",
-    fourth: "Aumenta el número de cosas de las que no sabemos nada",
-    answer: 4,
+      "La base de datos siempre pasa de un estado válido a otro estado válido",
+    third: "En SQL, las peticiones de tipo SELECT deben ser consistentes",
+    fourth: "La consistencia de los datos siempre implica guardarlos en un repositorio único",
+    answer: 2,
   },
   item21: {
     id: "21",
-    title: "Un problema de la Sociedad del Conocimientos es",
-    first: "Las redes sociales son muy numerosas",
-    second: "De entre las que sabemos o conocemos, no de todo hemos aprendido",
-    third: "Los orígenes de datos e información están cada vez más dispersos",
+    title: "En las bases de datos ACID, la característica Durability conlleva que. . .",
+    first: "Las colisiones entre transacciones durables (que persisten en el tiempo) deben ser canceladas",
+    second: "Las transacciones deben ser persistentes y cumplir la regla de Todo o Nada",
+    third: "En SQL, las peticiones de tipo SELECT deben ser persistentes",
     fourth:
-      "La complejidad creciente para manejar los dispositivos tecnológicos",
-    answer: 2,
+      "Los datos almacenados y los cambios realizados no se pierden y permanecen a lo largo del tiempo",
+    answer: 4,
   },
   item22: {
     id: "22",
-    title: "Concepto de cajanegrización",
+    title: "En las bases de datos ACID, la característica Isolation significa que. . .",
     first:
-      "oceso por el cual los avances científico/técnicos se hacen invisibles por su propio éxito",
+      "Las transacciones son independientes y no interfieren entre ellas",
     second:
-      "Complejidad de los avances científico/técnicos que resultan más exitosos",
+      "La base de datos siempre pasa de un estado Isolado a otro estado Isolado",
     third:
-      "Deseo de comprender el funcionamiento interno de los avances científico/técnicos complejos",
+      "En SQL, las peticiones de tipo SELECT deben ser aisladas, es decir, no concurrentes",
     fourth:
-      "Desconocimiento que se tiene de los beneficios los avances científico/técnicos",
+      "El aislamiento de los datos implica que estos sean guardados en un repositorio único",
     answer: 1,
   },
   item23: {
     id: "23",
-    title: "El concepto de Cajanegrización (o Blackboxing) se refiere a que",
+    title: "¿Cuál es la principal limitación del escalado vertical?",
     first:
-      "Solo interesa el resultado práctico de las cosas y no su funcionamiento interno",
-    second: "El funcionamiento interno de ciertas cosas suele ser complejo",
+      "El sobrecalentamiento y alto consumo de los equipos excesivamente grandes",
+    second: "Que llega un punto que, al no existir un servidor más potente, ya no es posible escalar más",
     third:
-      "El manejo de ciertas cosas o el aprendizaje de ciertos conceptos es difícil",
+      "Que económicamente resultaría inviable por el coste de sus componentes",
     fourth:
-      "Solo los especialistas se aprovechan realmente del beneficio de las cosas",
-    answer: 1,
+      "Que las transacciones de tipo ACID no serían posibles en ese tipo de equipos al aumentar demasiado su tamaño",
+    answer: 2,
   },
   item24: {
     id: "24",
     title:
-      "El conocimiento se ha convertido en un factor de producción, por lo tanto",
+      "¿Por qué las bases de datos relacionales no son aptas en sistemas escalados horizontalmente?",
     first:
-      "Existe un riesgo de exclusión para quienes no tengan acceso al conocimiento",
-    second: "Las empresas producen cada vez más productos",
-    third: "Los productos y servicios tienen siempre una calidad estándar",
-    fourth: "El acceso al dicho conocimiento está democratizado",
+      "Las características ACID de estas bases de datos provocan tiempos de respuesta demasiado grandes",
+    second: "Las claves primarias de las tablas se corrompen al distribuir una base de datos en muchos nodos",
+    third: "Los perfiles de redes sociales no se adaptan convenientemente a una tabla relacional",
+    fourth: "Los datos generados por el IoT y el Open Data requieren forzosamente de bases de datos NoSQL",
     answer: 1,
   },
   item25: {
     id: "25",
     title:
-      "Para salvar la brecha digital se debería tener acceso a los siguientes factores generales",
+      "Cuando un servidor que se ha quedado pequeño es apoyado por otro u otros para trabajar en paralelo hablamos de. .",
     first:
-      "Acceso a las TICs, formación para usarlas y disponibilidad de computación en la nube",
+      "Escalado Distribuido",
     second:
-      "Disponibilidad de computación en la nube, acceso a la red y las TICs",
+      "Escalado Horizontal",
     third:
-      "Acceso a la red y las TICs y formación o preparación para usar dichos medios",
+      "Escalado Consistente",
     fourth:
-      "Acceso a la red, disponibilidad de computación en la nube y formación o preparación para usar dichos medios",
-    answer: 3,
+      "Escalado Vertical",
+    answer: 2,
   },
   item26: {
     id: "26",
-    title: "En última instancia, procesar y analizar datos es para",
-    first: "Tener más conocimiento",
-    second: "Aprender más",
-    third: "Tomar decisiones",
-    fourth: "Asegurar la calidad de los datos",
-    answer: 3,
+    title: "Cuando un servidor que se ha quedado pequeño es reemplazado por otro de más capacidad hablamos de",
+    first: "Escalado Distribuido",
+    second: "Escalado Horizontal",
+    third: "Escalado Consistente",
+    fourth: "Escalado Vertical",
+    answer: 4,
   },
   item27: {
     id: "27",
     title:
-      "En un sistema de BI, el “Back-end” (BE) y el “Front-end” (FE) se refieren a",
+      "El teorema CAP o teorema de Brewer sobre sistemas distribuidos afirma que. . .",
     first:
-      "Los cuadros de mando son el BE y los cubos OLAP y el Dataware House son en FE",
+      "No pueden existe ningún sistema que a la vez pueda ser Consistente, Disponible y Tolerante a Particiones",
     second:
-      "Cubos OLAP y cuadros de mando podrían estar en el BE y en el FE según el diseño",
-    third: "El BE contendría las herramientas de consulta y el FE los procesos",
+      "No pueden existe ningún sistema que a la vez pueda ser Inconsistente, Disponible y Tolerante a Particiones",
+    third: "No pueden existe ningún sistema que a la vez pueda ser Consistente, No-disponible y Tolerante a Particiones",
     fourth:
-      "Los cubos OLAP y el Dataware House son el BE y los cuadros de mando el FE",
-    answer: 4,
+      "No pueden existe ningún sistema que a la vez pueda ser Consistente, Disponible y No-Tolerante a Particiones",
+    answer: 1,
   },
   item28: {
     id: "28",
-    title: "La Inteligencia de Negocios (BI - Business Intelligence) engloba",
-    first: "Todo lo que ayude a tomar mejores decisiones en los negocios",
-    second: "Las bases de datos con información relevante del negocio",
-    third: "Las estrategias planteadas por la gerencia para mejorar el negocio",
+    title: "Según el teorema CAP un sistema {AP} cumple que...",
+    first:
+      "En caso de partición da respuestas que podrían no ser consistentes",
+    second:
+      "En caso de partición solo admite transacciones atómicas",
+    third: "En caso de partición da siempre respuestas consistentes a cualquier petición",
     fourth:
-      "Los procesos de análisis que ayudan a generar información útil sobre el negocio",
+      "En caso de partición podrían no dar respuesta a una petición",
     answer: 1,
   },
   item29: {
     id: "29",
-    title:
-      "La inteligencia de negocios busca identificar las relaciones de los hechos presentados con la finalidad de",
-    first: "Dirigir las operaciones hacia el objetivo deseado",
+    title: "Según el teorema CAP un sistema {AP} cumple que...",
+    first:
+      "En caso de partición da respuestas que podrían no ser consistentes",
     second:
-      "Identificar los mejores objetivos que se puede marcar la organización",
-    third: "Conocer que acciones han sido las más beneficiosas en el pasado",
-    fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
+      "En caso de partición solo admite transacciones atómicas",
+    third:
+      "En caso de partición da siempre respuestas consistentes a cualquier petición",
+    fourth:
+      "En caso de partición podrían no dar respuesta a una petición",
     answer: 1,
   },
   item30: {
     id: "30",
-    title:
-      "La inteligencia de negocios es el conjunto de conceptos y métodos para",
-    first: "Mejorar la toma de decisiones en los negocios",
+    title: "Según el teorema CAP un sistema {CA} cumple que...",
+    first:
+      "En caso de partición da respuestas que podrían no ser consistentes",
     second:
-      "Identificar los mejores objetivos que se puede marcar la organización",
-    third: "Conocer que acciones han sido las más beneficiosas en el pasado",
-    fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
-    answer: 1,
+      "En caso de partición solo admite transacciones atómicas",
+    third:
+      "En caso de partición da siempre respuestas consistentes a cualquier petición",
+    fourth:
+      "En caso de partición podrían no dar respuesta a una petición",
+    answer: 3,
   },
   item31: {
     id: "31",
-    title: "Para la inteligencia de negocios un Hecho es",
-    first: "Cualquier acción ejecutiva de la dirección de la empresa",
-    second: "Una transacción que puede ser almacenada o registrada",
+    title: "Según el teorema CAP un sistema {CP} cumple que...",
+    first:
+      "En caso de partición da respuestas que podrían no ser consistentes",
+    second:
+      "En caso de partición solo admite transacciones atómicas",
     third:
-      "Una variable en función de la cual se estudia una métrica de interés",
-    fourth: "Un KPI o key performance indicator",
-    answer: 2,
+      "En caso de partición da casi siempre respuestas inconsistentes a una petición",
+    fourth:
+      "En caso de partición podrían las peticiones de actualización se cancelan",
+    answer: 4,
   },
   item32: {
     id: "32",
-    title: "Se dice que Business Intelligence es un término paraguas porque",
-    first: "Permite desplegar con facilidad metodologías de gestión de datos",
+    title: "Un sistema distribuido es Consistente cuando . . .",
+    first:
+      "Si un nodo cae, el resto, por consistencia, no responde a peticiones hasta que el nodo caído se recupere",
     second:
-      "Protege a las organizaciones que lo usan al competir con mejor información",
+      "Todos los nodos dan siempre la misma respuesta ante idénticas peticiones",
     third:
-      "El conocimiento que genera es como una capa protectora para la organización que dispone de él",
+      "Si la red se corta las operaciones de actualización se sincronizan más adelante",
     fourth:
-      "Engloba un conjunto variado de conceptos, métodos y herramientas para tomar mejores decisiones",
-    answer: 4,
+      "Todos los nodos se activan y desactivan a la vez, de forma síncrona",
+    answer: 2,
   },
   item33: {
     id: "33",
-    title:
-      "Según Hans Peter Luhn, los Sistemas Automáticos (o sistemas de información) deben tener las siguientes funciones",
-    first: "Capturar información, codificarla, distribuirla y validarla",
-    second: "Capturar información y distribuirla",
-    third: "Capturar información, distribuirla y validarla",
-    fourth: "Capturar información, codificarla y distribuirla",
-    answer: 4,
+    title: "Un sistema distribuido es Disponible cuando . . .",
+    first:
+      "Si un nodo cae, el resto, por consistencia, no responde a peticiones hasta que el nodo caído se recupere",
+    second:
+      "Todos los nodos dan siempre la misma respuesta ante idénticas peticiones",
+    third:
+      "Si la red se corta las peticiones son atendidas igualmente",
+    fourth:
+      "Todos los nodos se activan y desactivan a la vez, de forma síncrona",
+    answer: 3,
   },
   item34: {
     id: "34",
-    title:
-      "En un proyecto de implantación de un sistema de BI, el ROI se refiere a",
+    title: "Un sistema distribuido es Tolerante a partición cuando . . .",
     first:
-      "El ratio entre el beneficio esperado y el coste de implantación del sistema que, idealmente, en el medio plazo debería ser creciente",
+      "Si un nodo cae, el resto, por consistencia, no responde a peticiones hasta que el nodo caído se recupere",
     second:
-      "El ratio entre el beneficio esperado y el coste de implantación del sistema que, idealmente, en el medio plazo debería ser constante",
+      "Todos los nodos dan siempre la misma respuesta ante idénticas peticiones",
     third:
-      "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser constante e igual a 1",
+      "Todos los nodos se activan y desactivan a la vez, de forma síncrona",
     fourth:
-      "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser decreciente",
-    answer: 1,
+      "Al separarse uno o varios nodos de la red el sistema sigue funcionando",
+    answer: 4,
   },
   item35: {
     id: "35",
-    title: "Los beneficios ESTRATÉGICOS del Business Intelligence son",
-    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
-    second: "Mejorar la calidad de los datos",
-    third: "Mejorar la planificación de la empresa",
-    fourth: "Mejorar la posición competitiva",
-    answer: 3,
+    title: "¿En qué mejoran los sistemas BASE a los ACID?",
+    first:
+      "Los sistemas BASE siempre (o casi siempre) estarán disponibles",
+    second:
+      "La consistencia de los datos ocurre en tiempo real en los BASE",
+    third:
+      "La atomicidad de las transacciones BASE es inviolable",
+    fourth: "Los estados del sistema BASE serán más rigurosos y estables",
+    answer: 1,
   },
   item36: {
     id: "36",
-    title: "Los beneficios INTANGIBLES del Business Intelligence son",
-    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
-    second: "Mejorar la calidad de los datos",
-    third: "Mejorar la planificación",
-    fourth: "Mejorar la posición competitiva",
+    title: "¿Qué significa que un sistema BASE es Eventualmente consistente?",
+    first:
+      "Que el sistema BASE alcanza la consistencia real cuando es reiniciado",
+    second:
+      "Que en la práctica el sistema BASE nunca es consistente",
+    third:
+      "Que la atomicidad de las transacciones BASE ocurre eventualmente",
+    fourth:
+      "Que los estados de un sistema BASE tienden a ser consistentes con el tiempo",
     answer: 4,
   },
   item37: {
     id: "37",
-    title: "Los beneficios TANGIBLES del Business Intelligence son",
-    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
-    second: "Mejorar la calidad de los datos",
-    third: "Mejorar la planificación",
-    fourth: "Mejorar la posición competitiva",
+    title: "¿Qué significa que un sistema BASE está Básicamente disponible",
+    first:
+      "Que la disponibilidad ocurre prácticamente el 100% del tiempo",
+    second:
+      "Que solo cuando se dan unas condiciones básicas el sistema esta disponible",
+    third:
+      "Que la atomicidad de las transacciones BASE debe ser básica",
+    fourth:
+      "Que los estados del sistema BASE siempre están disponibles",
     answer: 1,
   },
   item38: {
     id: "38",
-    title: "Con respecto a la calidad de la información",
+    title: "En las bases de datos de tipo BASE",
     first:
-      "Solamente es responsable de dicha calidad el personal de las áreas TICs o de sistemas de de información",
+      "Las transacciones se basan en el concepto de Independencia (sin colisiones)",
     second:
-      "Son parte responsable de dicha calidad todas las personas de todas las área que interactúen con el sistema",
-    third:
-      "La responsabilidad de asegurar esa calidad recae fundamentalmente en los ejecutivos de la organización",
-    fourth: "Es un problema estratégico que requiere de personal",
+      "El sistema estará disponible prácticamente siempre dando respuestas muy aproximadas",
+    third: "El sistema se construye sobre una “BASE” que lo hace cien por cien consistente",
+    fourth:
+      "Las transacciones se basan en el concepto de Atomicidad",
     answer: 2,
   },
   item39: {
     id: "39",
-    title:
-      "Cuando la fuente del error en la información está en el Almacén de Datos, es porque",
-    first: "Las consultas están siendo mal implementadas",
-    second: "Los cubos pueden estar siendo manipulados incorrectamente",
-    third:
-      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
-    fourth: "Los datos se están introduciendo incorrectamente",
-    answer: 2,
+    title: "Sobre el paradigma de bases de datos NoSQL se puede afirmar que. . .",
+    first: "Usa estructuras de datos alternativas a las tablas de las bases de datos relacionales",
+    second: "Es un tipo de tecnología especialmente apta para bases de datos centralizadas",
+    third: "Aplica transacciones de tipo ACID",
+    fourth: "Requiere el uso de registros de datos estructurados",
+    answer: 1,
   },
   item40: {
     id: "40",
-    title:
-      "Cuando la fuente del error en la información está en el proceso ETL, es porque",
-    first: "Las consultas están siendo mal implementadas",
-    second: "Los cubos pueden estar siendo manipulados incorrectamente",
-    third:
-      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
-    fourth: "Los datos se están introduciendo incorrectamente",
-    answer: 3,
+    title: "Sobre el paradigma de bases de datos NoSQL se puede afirmar que. . .",
+    first: "Suele usar estructuras de datos muy similares a las tablas de las bases de datos relacionales",
+    second: "Es un tipo de tecnología especialmente apta para bases de datos distribuidas",
+    third: "Aplica transacciones de tipo ACID",
+    fourth:
+      "Requiere el uso de registros de datos estructurados",
+    answer: 2,
   },
   item41: {
     id: "41",
-    title:
-      "Cuando la fuente del error en la información está en el sistema OLAP, es porque",
-    first: "Las consultas están siendo mal implementadas",
-    second: "Los cubos pueden estar siendo manipulados incorrectamente",
-    third:
-      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
-    fourth: "Los datos se están introduciendo incorrectamente",
-    answer: 1,
+    title: "Sobre el paradigma de bases de datos NoSQL se puede afirmar que. . .",
+    first: "Suele usar estructuras de datos muy similares a las tablas de las bases de datos relacionales",
+    second: "Es un tipo de tecnología especialmente apta para bases de datos centralizadas",
+    third: "Aplica transacciones de tipo ACID",
+    fourth: "Permite el uso de datos no estructurados",
+    answer: 4,
   },
   item42: {
     id: "42",
-    title:
-      "Cuando la fuente del error en la información está en el sistema OLTP, es porque",
-    first: "Las consultas están siendo mal implementadas",
-    second: "Los cubos pueden estar siendo manipulados incorrectamente",
-    third:
-      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
-    fourth: "Los datos se están introduciendo incorrectamente",
-    answer: 4,
+    title: "Sobre el paradigma de bases de datos NoSQL se puede afirmar que. . .",
+    first: "Suele usar estructuras de datos muy similares a las tablas de las bases de datos relacionales",
+    second: "Es un tipo de tecnología especialmente apta para bases de datos centralizadas",
+    third: "Aplica transacciones flexibles y que tienden a la consistencia",
+    fourth: "Requiere el uso de registros de datos estructurados",
+    answer: 3,
   },
   item43: {
     id: "43",
-    title:
-      "Cuando la información disponible para tomar decisiones no es válida y rigurosa",
-    first: "Afortunadamente el error suele ser fácil de detectar",
+    title: "En las bases de datos Clave-Valor se asocia un identificador único (la clave) a . . .",
+    first:
+      "Un valor de tipo simple",
     second:
-      "Los errores en la información casi siempre pueden aislarse antes de que se propaguen por la organización",
+      "Otro identificador que puede contener redundancias",
     third:
-      "El origen del error está en quien introduce los datos ne el sistemas",
-    fourth:
-      "No se puede hacer responsable de una mala decisión a quien la haya tomado en base a dicha información incorrecta",
-    answer: 4,
+      "Un valor que puede ser simple o complejo como un documento o un fichero",
+    fourth: "A alguno de los valores de una columna de datos de información",
+    answer: 1,
   },
   item44: {
     id: "44",
-    title:
-      "¿Por qué se pierde competitividad cuando un sistema B.I. funciona mal?",
+    title: "En un contenedor o cabinet de una base de datos clave-valor",
     first:
-      "Porque la competencia sí los usa y tomara mejores decisiones que nuestra organización",
-    second: "Por el coste de las malas decisiones tomadas",
-    third: "Porque el sistema deja de usarse",
-    fourth: "Porque asegurar la calidad de la información supone un gasto",
+      "No puede haber dos claves iguales",
+    second: "Se pueden repetir algunas claves siempre que los valores asociados no coincidan",
+    third: "No puede haber claves que se repitan, tampoco con las de otros contenedores",
+    fourth: "Dos claves distintas deben contener valores distintos",
     answer: 1,
   },
   item45: {
     id: "45",
-    title:
-      "Cuando en un sistema de B.I. la información es errónea la toma de malas decisiones implica",
+    title: "En una base de datos clave-valor. . ",
     first:
-      "Un sobre coste al asumir esos errores y la perdida de confianza en el sistema",
+      "Al tratar de recuperar un valor de una clave que no existe el sistema devuelve un valor nulo",
     second:
-      "Un sobre coste al asumir esos errores y un uso continuado de un sistema que funciona mal",
+      "No está permitido la búsqueda de claves con comodines",
     third:
-      "Un sobre coste al asumir esos errores y la activación de protocolos de gestión de la calidad de los datos",
+      "Al tratar de recuperar un valor de una clave que no existe el sistema puede crashear",
     fourth:
-      "Un sobre coste al asumir esos errores y una perdida de tiempo al tratar de asegurar la veracidad de la información en el futuro",
+      "Una clave puede tener asociado un registro con varios datos elementales (nombre, apellidos, teléfono, etc.)",
     answer: 1,
   },
   item46: {
     id: "46",
-    title: "El proceso para asegurar la calidad de la información consiste en",
+    title: "En las base de datos documentales. . .",
     first:
-      "Hacer comprobaciones periódicamente a distintos niveles y en distinto periodos de tiempo",
+      "Los registros pueden tener una estructura flexible para contener información diversa",
     second:
-      "Hacer comprobaciones durante la instalación del sistema de información para dejarlo bien calibrado",
-    third:
-      "Hacer comprobaciones manuales, esporádicas y al azar para detectar posibles errores dispersos",
-    fourth:
-      "Hacer comprobaciones de los totales y comprobar si son o no correctos",
+      "Los registros son siempre documentos en XML con una estructura fija",
+    third: "Los registros pueden ser XML o JSON con una estructura fija",
+    fourth: "Los registros siempre tienen el mismo número de campos",
     answer: 1,
   },
   item47: {
     id: "47",
-    title: "¿Para qué se utilizan los KPIs?",
-    first: "Para monitorizar el funcionamiento de las consultas OLAP",
-    second:
-      "Para comprobar si se están alcanzando los objetivos que se han establecido",
-    third: "Para asegurar la calidad de los datos empresariales",
-    fourth: "Para medir los tiempos de respuesta de las operaciones ETL",
-    answer: 2,
+    title: "Las bases de datos orientadas a documento son. . .",
+    first: "Colecciones de documentos que presentan una cierta estructura interna",
+    second: "Colecciones de documentos, normalmente binarios, como PDFs, video, audio, etc.",
+    third: "Colecciones de documentos que forman parte una biblioteca digitalizadas",
+    fourth:
+      "Colecciones de documentos de repositorios on-line como GDrive o Dropbox",
+    answer: 1,
   },
   item48: {
     id: "48",
-    title: "Un KPI es",
+    title: "Un documento contenido dentro de una base de datos documental se identifica por. . .",
     first:
-      "Una medida o indicador del negocio de importancia para el desarrollo del mismo",
-    second: "Una medida o indicador del rendimiento del Data Warehouse",
+      "Una clave única que identifica unívocamente a dicho documento",
+    second:
+      "Una cabecera identificativa que obligatoriamente debe contener dicho documento",
     third:
-      "Una medida o indicador del nivel de calidad de los datos de la organización",
-    fourth: "Una medida o indicador del funcionamiento del sistema de gestión",
+      "Por el contenido completo y único de dicho documento",
+    fourth:
+      "Por el cabinet o la colección que contiene a dicho documento",
     answer: 1,
   },
   item49: {
     id: "49",
-    title: "Todo KPI obligatoriamente debe cumplir",
-    first: "Ser una magnitud cuantificable con un valor numérico",
-    second: "Ser de interés para el nivel ejecutivo de la empresa",
-    third: "Ser un indicador del rendimiento de la competencia",
+    title: "En las bases de datos orientadas a columnas. . .",
+    first:
+      "Solo se leen aquellos datos que se necesitan",
+    second: "La escritura de tuplas es una operación simple y rápida",
+    third:
+      "Añadir o modificar un registro es una tarea fácil",
     fourth:
-      "Ser un indicador del performance de sistema de información corporativo",
+      "A veces se accede a datos innecesarios",
     answer: 1,
   },
   item50: {
     id: "50",
-    title: "Todo KPI obligatoriamente debe cumplir",
-    first: "Ser una magnitud cualitativa",
-    second: "Ser de interés para el nivel operativo de la organización",
-    third: "Ser definido y calculado con una formula concreta",
-    fourth: "Ser un indicador del performance de los procesos ETL",
-    answer: 3,
+    title:
+      "En qué aspectos mejora la eficiencia una base de datos orientada a columnas?",
+    first:
+      "Al calcular agregados (sumatorios, promedios, etc.) y en la compresión de datos",
+    second: "En la compresión de datos y en operaciones de inserción o actualización de registros",
+    third: "En las operaciones de inserción o actualización de registros y al calcular agregados (sumatorios, promedios, etc.)",
+    fourth: "Solo en las operaciones de inserción o actualización de registros",
+    answer: 1,
   },
   item51: {
     id: "51",
-    title: "Todo KPI obligatoriamente debe cumplir",
-    first: "Ser una magnitud cualitativo o cuantitativa",
-    second: "Ser de interés para el nivel operativo de la empresa",
-    third: "Ser un indicador del performance de la competencia",
-    fourth: "Ser una medición de una de las actividades críticas de la empresa",
-    answer: 4,
+    title:
+      "Las bases de datos orientadas a columnas son especialmente aptas para. . .",
+    first:
+      "Tareas de lectura intensa en grandes depósitos de datos",
+    second:
+      "Tareas de escritura y actualización intensiva en repositorios de gran tamaño",
+    third:
+      "Tareas de filtrado de información en almacenes de datos o data warehouse",
+    fourth:
+      "Tareas de transformación y carga en procesos ETL",
+    answer: 1,
   },
   item52: {
     id: "52",
-    title: "La llamada “Ciencia de datos” incluye disciplinas como:",
-    first:
-      "Minería de datos, Inteligencia Artificial, Aprendizaje automático y Business Intelligence",
-    second: "Minería de datos, cálculo matemático e Inteligencia Artificial",
-    third: "Minería de datos, Inteligencia Artificial y Aprendizaje automático",
-    fourth: "Minería de datos, Inteligencia Artificial y Business Intelligence",
-    answer: 3,
+    title: "En las bases de datos tipo grafo. . .",
+    first: "Un nodo representa una entidad (usuario, organización, zona/lugar, ...) dentro del sistema",
+    second: "Un nodo contiene la información acerca del resto de nodos con los que guarda algún tipo de relación",
+    third: "Un nodo solo puede contener un dato elemental (numérico o textual)",
+    fourth: "Un nodo no puede representar un lugar o zona geográfica ya que ese tipo de información corresponde a las aristas",
+    answer: 1,
   },
   item53: {
     id: "53",
-    title: "Los métodos descriptivos de análisis de datos incluyen",
-    first: "Asociación y Clasificación",
-    second: "Agrupamiento y Asociación",
-    third: "Clasificación y Regresión",
-    fourth: "Regresión y Agrupamiento",
-    answer: 2,
+    title:
+      "Sobre las bases de datos orientadas a grafos se cumple que . . .",
+    first:
+      "Solo los nodos contienen información, las aristas solo indican una relación entre nodos",
+    second:
+      "Una arista representa información de un usuario, un lugar, una organización, etc.",
+    third: "En un nodo se representa información del tipo “Es amigo”, “Me gusta”, “Vive en”, etc.",
+    fourth:
+      "Tanto las aristas como los nodos del grafo pueden tener información asociada",
+    answer: 4,
   },
   item54: {
     id: "54",
-    title: "Los métodos predictivos de análisis de datos incluyen",
-    first: "Asociación y Clasificación",
-    second: "Agrupamiento y Asociación",
-    third: "Clasificación y Regresión",
-    fourth: "Regresión y Agrupamiento",
-    answer: 3,
+    title: "Una base de datos de tipo grafo cumple que...",
+    first: "Las aristas pueden contener varios tipos de información",
+    second: "Las aristas pueden apuntar a otras aristas",
+    third: "Las arístas no contienen informacón, solo indican una relación entre nodos",
+    fourth:
+      "Las arístas solo pueden contener información elemental (texto o un número)",
+    answer: 1,
   },
   item55: {
     id: "55",
-    title: "El Business Analytics trata de responder preguntas como:",
-    first:
-      "¿Qué pasaría si el escenario fuera otro? o ¿Cuando sucedieron las cosas?",
-    second: "¿Qué ha sucedido? o ¿Por qué suceden las cosas?",
-    third: "¿Cuando sucedieron las cosas? o ¿Quién hizo que sucedieran?",
-    fourth:
-      "¿Por qué suceden las cosas? o ¿Qué pasaría si el escenario fuera otro?",
-    answer: 4,
+    title:
+      "Una consulta en una base de datos de tipo grafo...",
+    first: "Normalmente tienen como origen un nodo de referencia a partir del cual se buscan sus relaciones con otros nodos",
+    second:
+      "Suelen partir de una arista etiquetada de una forma concreta que resulta de interés",
+    third: "Es muy similar a una SELECT en lenguaje SQL sobre una o varias tablas",
+    fourth: "Es muy compleja de hacer al no existir tablas relacionales",
+    answer: 1,
   },
   item56: {
     id: "56",
     title:
-      "La principal diferencia apreciable entre Business Intelligence (BI) y Business Analytics (BA) es . . .",
-    first: "BI hace analítica descriptiva y BA predictiva",
+      "¿Qué pretende planteamiento NewSQL para Sistema de Gestión de BBDD?",
+    first: "Crear sistemas que permitan Transacciones de tipo ACID y Escalabilidad Horizontal",
     second:
-      "BI usa técnicas de análisis estadístico y BA Cubos OLAP y cuadros de mando",
-    third: "BI habla de 'qué pasará' y BA de 'qué pasó'",
-    fourth:
-      "BI plantea escenarios para proyectar posibles resultados y BA usa datos históricos para aprender de decisiones previas",
-    answer: 1,
-  },
-  item57: {
-    id: "57",
-    title: "Sobre el Business Analytics se puede decir que . .",
-    first:
-      "Hay muchos autores que lo asimilan al concepto de Business Intelligence",
-    second: "Es una disciplina totalmente distinta del Business Intelligence",
-    third:
-      "Se centra en los análisis descriptivos, al contrario que el Business Intelligence que se centra en los predictivos",
-    fourth:
-      "Es un concepto más antiguo que el de Business Intelligence, y por tanto, más asentado",
-    answer: 1,
-  },
-  item58: {
-    id: "58",
-    title: "¿Cómo resolver los problemas de Variedad de datos?",
-    first:
-      "Almacenando datos por niveles, identificando relaciones e inconsistencias entre las diversas fuentes de datos y empleando formatos como XML",
-    second:
-      "Externalizando la gestión de datos y balanceando la latencia de los datos con los ciclos de decisión",
-    third:
-      "Identificando relaciones e inconsistencias entre las diversas fuentes de datos, gestionando los metadatos y empleando formatos como XML",
-    fourth:
-      "Empleando formatos como XML, Incorporando memorias caché y almacenes operacionales, y balanceando la latencia de los datos con los ciclos de decisión",
-    answer: 3,
-  },
-  item59: {
-    id: "59",
-    title: "¿Cómo resolver los problemas de Velocidad de datos?",
-    first:
-      "Almacenando datos por niveles, Descartando los datos fríos y externalizando la gestión de datos",
-    second:
-      "Externalizando la gestión de datos y balanceando la latencia de los datos con los ciclos de decisión",
-    third:
-      "Almacenando datos por niveles, gestionando los metadatos y externalizando la gestión de datos",
-    fourth:
-      "Incorporando memorias caché y almacenes operacionales, y balanceando la latencia de los datos con los ciclos de decisión",
-    answer: 4,
-  },
-  item60: {
-    id: "60",
-    title: "¿Cómo FRANI los problemas de Volumen de datos?",
-    first:
-      "Almacenando datos por niveles, Descartando los datos fríos y externalizando la gestión de datos",
-    second:
-      "Externalizando la gestión de datos y balanceando la latencia de los datos con los ciclos de decisión",
-    third:
-      "Almacenando datos por niveles, Descartando los datos fríos y externalizando la gestión de datos",
-    fourth:
-      "Incorporando memorias caché y almacenes operacionales y externalizando la gestión de dato",
+      "Crear sistemas que permitan Transacciones de tipo ACID no atómicas",
+    third: "Crear sistemas que permitan Escalabilidad Horizontal y Disponibilidad Parcial",
+    fourth: "Crear sistemas que permitan el diseño relacional de Bases de datos sin usar claves primarias ni claves ajenas",
     answer: 1,
   },
 };
