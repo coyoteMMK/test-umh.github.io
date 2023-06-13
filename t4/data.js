@@ -1,14 +1,14 @@
 const data = {
   item1: {
     id: "1",
-    title: "Un almacén de datos es",
-    first: "Un repositorio de datos único y centralizado",
+    title: "El Big Data es un problema que surge en la sociedad de la información debido a. . .",
+    first: "La web 2.0, el Open Data y el Internet de las Cosas",
     second:
-      "Un repositorio de datos distribuido para albergar toda la carga que sea necesaria",
+      "La web 2.0, el Open Data y los portales de comercio electrónico",
     third:
-      "Un repositorio de datos que solo será distribuido si el volumen de datos almacenados fuera muy grande",
+      "El Open Data, el Internet de las Cosas y el Business Intelligence",
     fourth:
-      "Un repositorio de datos redundante, copia idéntica de los datos transaccionales de la empresa",
+      "La web 2.0, el Business Intelligence y el Internet de las Cosas",
     answer: 1,
   },
   item2: {
@@ -670,7 +670,7 @@ const data = {
   },
   item60: {
     id: "60",
-    title: "¿Cómo resolver los problemas de Volumen de datos?",
+    title: "¿Cómo FRANI los problemas de Volumen de datos?",
     first:
       "Almacenando datos por niveles, Descartando los datos fríos y externalizando la gestión de datos",
     second:
