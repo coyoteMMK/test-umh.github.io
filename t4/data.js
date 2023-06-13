@@ -1,6 +1,6 @@
 const data = {
   item1: {
-    id: "1 ",
+    id: "1",
     title: "El Big Data es un problema que surge en la sociedad de la información debido a. . .",
     first: "La web 2.0, el Open Data y el Internet de las Cosas",
     second:
