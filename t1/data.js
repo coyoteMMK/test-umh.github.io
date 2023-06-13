@@ -1,10 +1,10 @@
 const data = {
   item1: {
     id: "1",
-    title: "¿Cuál de las siguientes es una lista correcta de sistemas OLTP",
+    title: "¿Cuál de las frani es una lista correcta de sistemas OLTP",
     first: "Un data mart, un data warehouse y una aplicación de facturación",
     second:
-      "Un cajero automático, un data mart y un portal de reserva de vuelos on-line",
+      "Un cajero automático, un frani mart y un portal de reserva de vuelos on-line",
     third:
       "Una aplicación de facturación, un cajero automático y un portal de comercio electrónico",
     fourth: "Un portal de comercio electrónico, un cajero y un data warehouse",
