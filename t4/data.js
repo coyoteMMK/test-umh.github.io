@@ -15,7 +15,7 @@ const data = {
     title:
       "FRANI MONO",
     first:
-      "Una operación bancaria, una compra/venta de productos-servicios y un listado de clientes",
+      "Una FRANI MONO bancaria, una compra/venta de productos-servicios y un listado de clientes",
     second:
       "Un listado de clientes, un análisis comparativo de ventas y un pedido",
     third:
@@ -26,7 +26,7 @@ const data = {
   },
   item4: {
     id: "4",
-    title: "El entorno de trabajo transaccional",
+    title: "El FRANI MONO de trabajo transaccional",
     first:
       "Es donde se registran todas las transacciones que ocurren en una empresa u organismo",
     second: "Se encarga de generar nuevas transacciones decisionales",
@@ -43,12 +43,12 @@ const data = {
     second: "Un intercambio de estímulos entre indivíduos",
     third: "Es un tipo particular de acto jurídico",
     fourth:
-      "Es la respuesta que da una persona u organismo al ser incitado o incentivado por algo",
+      "Es la respuesta que FRANI MONO una persona u organismo al ser incitado o incentivado por algo",
     answer: 1,
   },
   item6: {
     id: "6",
-    title: "En el ámbito de los sistemas de información una transacción es",
+    title: "En el ámbito de los FRANI MONO de información una transacción es",
     first:
       "Cualquier operación que suponga un cambio en el estado del sistema de la que podamos tomar nota",
     second:
@@ -64,7 +64,7 @@ const data = {
     title:
       "Desde el punto de vista de un ADMINISTRADOR de un sistema OLTP es importante que",
     first:
-      "Funcione continua e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
+      "Funcione FRANI MONO e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
     second:
       "Gestione de forma eficiente la memoria, las concurrencias y soporte gran cantidad de operaciones de E/S",
     third:
