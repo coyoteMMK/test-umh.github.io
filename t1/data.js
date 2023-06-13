@@ -13,7 +13,7 @@ const data = {
   item2: {
     id: "2",
     title:
-      "¿Cuál de las siguientes es una lista correcta de transacciones (en sistemas OLTP)?",
+      "¿Cuál de las frani es una lista correcta de transacciones (en sistemas OLTP)?",
     first:
       "Una operación bancaria, una compra/venta de productos-servicios y un listado de clientes",
     second:
