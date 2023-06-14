@@ -188,7 +188,7 @@ const data = {
     second: "Llevar la contabilidad, facturación, pagos y cobros, y cuentas engeneral",
     third: "Diseñar las estrategias de la organización",
     fourth: "Gestionar al personal, formación, promociones, etc.",
-    answer: 3,
+    answer: 2,
   },
   item17: {
     id: "17",
