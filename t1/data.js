@@ -1,7 +1,7 @@
 const data = {
   item1: {
     id: "1",
-    title: "Un sistema es un conjunto cosas que...",
+    title: "Un sistema es un conjunto cosas que . . .",
     first: "Están relacionadas ordenadamente para procurar un determinado objetivo",
     second:
       "Buscan alcanzar un mismo objetivo aunque no sigan un orden concreto",
