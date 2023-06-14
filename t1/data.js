@@ -1,582 +1,636 @@
 const data = {
   item1: {
     id: "1",
-    title: "Un sistema es un conjunto cosas que . . .",
-    first: "Están relacionadas ordenadamente para procurar un determinado objetivo",
+  item1: {
+    id: "1",
+    title: "El Open Data, el Internet de las Cosas y el Business Intelligence",
+    first: "La web 2.0, el Open Data y el Internet de las Cosas",
     second:
-      "Buscan alcanzar un mismo objetivo aunque no sigan un orden concreto",
+      "La web 2.0, el Open Data y los portales de comercio electrónico",
     third:
-      "Se conectan entre sí, aunque pueden estar pasivas sin hacer una en particular",
+      "El Open Data, el Internet de las Cosas y el Business Intelligence",
     fourth:
-      "Se relacionan por ser de la misma naturaleza o estar compuestos de los mismos materiales principales",
-    answer: 1,
+      "La web 2.0, el Business Intelligence y el Internet de las Cosas",
+    answer: 2,
   },
   item2: {
     id: "2",
-    title: "Un sistema es un conjunto de elementos que . . .",
+    title: "Una ventaja de los Data Warehouse es que",
     first:
-      "Están interconectados según un orden y hacen alguna función de interés",
+      "Almacena las decisiones tomadas en el pasado para evaluarlas más adelante",
     second:
-      "Ocupan un mismo lugar estén o no interrelacionados",
-    third: "Están conectados pero pueden estar inertes sin hacer una función concreta",
+      "Da soporte a los sistemas de información para la toma de decisiones",
+    third: "Distribuye mejor los datos por toda la organización",
     fourth:
-      "Se caracterizan por una cualidad común (Mismo color, mismo peso, etc.)",
-    answer: 1,
+      "Apenas requiere inversión ni formación por parte del personal ya que funciona como las aplicaciones de gestión convencionales",
+    answer: 2,
   },
   item3: {
     id: "3",
-    title: "¿Cuáles son las fases y el orden correcto del método científico?",
+    title: "Un data Mart es",
     first:
-      "Observación → Hipótesis → Validación empírica → Formular ley o teoría",
+      "Una vista parcial de los datos de la empresa que combina partes de varios temas o departamentos relacionados de interés",
     second:
-      "Observación → Hipótesis → Formular ley o teoría → Validación empírica",
+      "Una vista completa de los datos de la empresa, encriptada y comprimida para que ocupe menos espacio",
     third:
-      "Observación → Hipótesis → Formular ley o teoría",
+      "Una vista completa de los datos de la empresa lista para ser distribuida más ágilmente",
     fourth:
-      "Observación → Hipótesis → Validación empírica → Formular ley o teoría → Difusión",
-    answer: 1,
+      "Una vista parcial de los datos de la empresa orientada a un área o tema concreto",
+    answer: 4,
   },
   item4: {
     id: "4",
-    title: "¿Qué es el conocimiento?",
+    title: "Los procesos ETL son para",
     first:
-      "Es el conjunto de la información adquirida y asimilada",
+      "Migrar datos, particularmente de un origen con una estructura predefinida para su distribución a múltiples destinos",
     second:
-      "Es cada valor de tipo lógico resultante de tratar otros valores numéricos o textuales",
+      "Migrar datos, en general, de un o varios orígenes para su distribución a múltiples destinos",
     third:
-      "Es el resultado de disgregar detalladamente la información en datos",
+      "Migrar datos, en general, de uno o varios orígenes a un destino concreto",
     fourth:
-      "Es el resultado de haber organizado y procesado un conjunto de datos",
-    answer: 1,
+      "Migrar datos, particularmente de un origen con una estructura predefinida a un destino concreto",
+    answer: 3,
   },
   item5: {
     id: "5",
-    title: "¿Qué es la información?",
+    title: "El enfoque Bottom-Up de un Almacén de datos defiende que",
     first:
-      "Es el resultado de haber organizado y procesado un conjunto de datos",
+      "Los data marts de una empresa por sí solos hacen innecesario el almacén de datos",
     second:
-      "Es cada valor de tipo lógico resultante de tratar otros valores numéricos o textuales",
+      "El almacén de datos se construye uniendo todos los data marts de la empresa",
     third:
-      "Es el resultado de analizar el conocimiento que se tiene sobre algún tema",
+      "Los data marts de la empresa son independientes del almacén de datos",
     fourth:
-      "Es la representación simbólica de un valor de cualquier tipo asignado a una variable",
-    answer: 1,
+      "El almacén de datos se diseña primero y a partir de él se crean los data marts",
+    answer: 2,
   },
   item6: {
     id: "6",
-    title: "¿Que quiere decir que la información debe ser Válida?",
+    title: "Sobre los sistemas heredados o 'Legacy systems', estos son",
     first:
-      "Que debe estar actualizada temporalmente pero también en el espacio (geográficamente)",
+      "Sistemas de información antiguos, de bajo coste y fácilmente actualizables",
     second:
-      "Que debe ser relevante para quien la recibe",
+      "Sistemas de información antiguos y prescindibles, aunque interesantes para conocer la historia de la empresa",
     third:
-      "Que quien la proporciona es de confianza",
+      "Sistemas de información antiguos que normalmente se desechan por haber quedado obsoletos",
     fourth:
-      "Que es de utilidad para quien la recibe",
-    answer: 3,
+      "Sistemas de información antiguos pero críticos, no se puede prescindir de ellos",
+    answer: 4,
   },
   item7: {
     id: "7",
-    title: "¿Que quiere decir que la información debe tener Valor?",
+    title: "En el proceso ETL, al extraer",
     first:
-      "Que debe estar actualizada temporalmente pero también en el espacio (geográficamente)",
+      "Hay que comprobar que los orígenes de datos son todo homogéneos con idénticas estructuras",
     second:
-      "Que debe ser relevante para quien la recibe",
+      "Hay que asegurarse de que la copia de seguridad de los datos de origen se ha realizado correctamente",
     third:
-      "Que el emisor es fiable",
+      "Hay que preprocesar los datos en el origen para que el migrarlos tengan el formato correcto",
     fourth:
-      "Que es de utilidad, quien la recibe podrá hacer un uso provechoso con ella",
+      "Hay que verificar que los datos de origen tienen la estructura y formatos esperados",
     answer: 4,
   },
   item8: {
     id: "8",
-    title: "¿Que quiere decir que la información debe tener Vigencia?",
+    title: "En el proceso ETL, el área de 'Stage' o el ODS hacen referencia a",
     first:
-      "Que debe estar actualizada temporalmente pero también en el espacio (geográficamente)",
+      "Son las bases de datos de origen donde residen los datos que se quiere migrar",
     second:
-      "Que debe ser relevante para quien la recibe",
+      "Son áreas de memoria temporales donde ejecutar las transformaciones antes de volcar los datos en el destino",
     third:
-      "Que el emisor es fiable",
+      "Son las tablas de datos de destino donde se volcaran los datos finalmente",
     fourth:
-      "Que es de utilidad para quien la recibe",
-    answer: 1,
+      "Son ficheros con metainformación sobre las estructuras de datos de origen y destino",
+    answer: 2,
   },
   item9: {
     id: "9",
-    title: "Sobre los conceptos de Dato, Conocimiento e Información, ¿en qué orden se generan?",
+    title: "En el proceso ETL, el proceso de carga necesita que",
     first:
-      "Información y Datos pueden ocurrir a la vez y después → Conocimiento",
+      "Se consideren restricciones de formato, claves y/o triggers del destino",
     second:
-      "Conocimiento → Dato → Información",
+      "Se consideren restricciones de formato, claves y/o triggers del origen",
     third:
-      "Datos → Información → Conocimiento",
-    fourth: "Datos → Conocimiento → Información",
-    answer: 3,
+      "Se consideren los data marts existen en la organización y a que áreas pertenecen",
+    fourth: "Se consideren los periodos de latencia en la transmisión de datos",
+    answer: 1,
   },
   item10: {
     id: "10",
-    title: "Un dato es",
+    title: "La diferencia entre ETL y ELT es",
     first:
-      "Una representación simbólica de un valor numérico, textual o lógico",
+      "En ETL la carga es sobre una base de datos de destino y en ELT puede ser en ficheros con formato JSON, XML o similar",
     second:
-      "Una representación simbólica de un valor numérico o textual (no un valor lógico ya que eso sería 'información')",
+      "En ETL la extracción se lleva a cabo en orígenes de datos diversos y heterogéneos y en ELT se hace sobre orígenes de datos de igual estructura",
     third:
-      "Un conjunto elemental de información organizada simbólicamente",
+      "En ELT la transformación es un proceso atómico mientras que en ETL no lo es",
     fourth:
-      "El conocimiento abstracto previo al conocimiento detallado final",
-    answer: 1,
+      "En ELT la transformación se realiza al final en el destino mientras que en ETL se hace en un área intermedia",
+    answer: 4,
   },
   item11: {
     id: "11",
-    title: "El objetivo último de un sistema de información es . . .",
+    title: "Sobre los Data Lake",
     first:
-      "Recolectar y procesar la información de la empresa",
+      "Son repositorios de datos alternativos y excluyentes de los data warehouse",
     second:
-      "Dar máxima difusión por toda la organización a la información disponible",
+      "Son repositorios de datos donde se hace una copia idéntica a los de origen",
     third:
-      "Almacenar los datos reunidos en todos os departamentos y áreas de la organización",
+      "Son repositorios de datos con una estructura de los datos mucho más estricta que la de los data warehouse",
     fourth:
-      "Dar soporte al proceso de toma de decisiones en la organización",
-    answer: 4,
+      "Son repositorios de datos para copias de seguridad de los datos operacionales",
+    answer: 2,
   },
   item12: {
     id: "12",
-    title: "En un sistema de Información intervienen los siguientes componentes:",
+    title: "El concepto 'Sociedad del Conocimiento' hace referencia a",
     first:
-      "Usuarios del sistema y recursos para tratar la información",
+      "Los cambios sociales producidos por la amplia distribución de datos e información en general",
     second:
-      "Datos, usuarios del sistema, recursos y capital para mantener dicho sistema",
-    third: "Datos almacenados y procesados, y recursos para tratar la información",
+      "Los cambios sociales producidos por los 'Influencers' de las redes sociales",
+    third: "Los cambios sociales producidos por la Inteligencia Artificial",
     fourth:
-      "Datos almacenados y procesados, usuarios y recursos para tratar la información",
-    answer: 4,
+      "Los cambios sociales producidos por los dispositivos 'smart' (teléfonos, relojes, etc.)",
+    answer: 1,
   },
   item13: {
     id: "13",
     title:
-      "Sobre las técnicas de trabajo en un sistema de información...",
-    first: "Son la forma en los usuarios acceden a la información disponible",
-    second: "Son la forma en que se desarrolla el trabajo por parte de los usuarios y los recursos disponibles",
-    third: "Son la forma en que se programan los recursos informáticos del propio sistema",
-    fourth: "Son la forma en que se disemina la información por la empresa u organización a la que pertenece el sistema",
+      "Los cambios sociales producidos por la gran difusión y acceso a la información en general se conoce como",
+    first: "Sociedad Tecnolófica",
+    second: "Sociedad del Conocimiento",
+    third: "Sociedad Conectada",
+    fourth: "Sociedad 2.0",
     answer: 2,
   },
   item14: {
     id: "14",
-    title: "De forma esquemática se podría decir que toda empresa tiene. . .",
+    title: "Sobre 'Aprendizaje' y 'Conocimiento' podemos decir que",
     first:
-      "Cinco departamentos funcionales y tres niveles jerárquicos",
-    second: "Cuatro departamentos funcionales y tres niveles jerárquicos",
-    third: "Cinco departamentos funcionales y dos niveles jerárquicos",
+      "Se retroalimentan, Conocemos para aprender y al aprender obtenemos más conocimiento",
+    second: "El conocimiento sirve para aprender",
+    third: "Aprender genera nuevo conocimient",
     fourth:
-      "Tres departamentos funcionales y Cuatro niveles jerárquicos",
+      "Ambos conceptos son sinónimos y previos a la generación de información",
     answer: 1,
   },
   item15: {
     id: "15",
-    title: "En el modelo piramidal de una empresarial el departamento de DIRECCIÓN se encarga de . . .",
-    first: "Materializar productos y servicios",
-    second: "Colocar mejor los productos y servicios producidos en el mercado",
-    third: "Diseñar las estrategias de la organización",
-    fourth: "Gestionar al personal, formación, promociones, etc.",
-    answer: 3,
+    title: "Una persona aprenderá más y mejor sobre un tema",
+    first: "Cuantos más libros lea sobre el tema del que se quiere aprender",
+    second: "Cuanto más involucrado está con el tema del que desea aprender",
+    third: "Cuando su motivación por dicho tema es mayor",
+    fourth: "Si parte de una base solida sobre dicho tema",
+    answer: 2,
   },
   item16: {
     id: "16",
-    title: "En el modelo piramidal de una empresarial el departamento de FINANZAS se encarga de . . .",
-    first: "Elaborar los productos y servicios",
-    second: "Llevar la contabilidad, facturación, pagos y cobros, y cuentas engeneral",
-    third: "Diseñar las estrategias de la organización",
-    fourth: "Gestionar al personal, formación, promociones, etc.",
+    title: "Una persona aprenderá más y mejor sobre un tema",
+    first: "Cuando habla, debate y discute sobre ese tema",
+    second: "Cuando lee libros y escucha charlas sobre ese tema",
+    third: "Cuando enseña a otros sobre ese tema",
+    fourth: "Si parte de una base solida sobre dicho tema",
     answer: 3,
   },
   item17: {
     id: "17",
-    title: "En el modelo piramidal de una empresarial el departamento de MARKETING se encarga de . . .",
+    title: "Al aumentar rápidamente la generación de nuevo conocimiento",
     first:
-      "Materializar productos y servicios",
+      "El individuo particular suele estar confiado ya que las fuentes de dicho conocimiento suelen ser de confianza",
     second:
-      "Investigar el mercado y colocar en él lo mejor posible los productos y servicios producidos",
+      "El individuo particular suele estar más motivado a aprender más cosas",
     third:
-      "Diseñar las estrategias de la organización",
-    fourth: "Gestionar al personal, formación, promociones, etc.",
-    answer: 2,
+      "El individuo particular es cada vez más consciente de que hay muchas cosas que no sabe",
+    fourth: "El individuo particular cada vez está mejor informado",
+    answer: 3,
   },
   item18: {
     id: "18",
-    title: "En el modelo piramidal de una empresarial el departamento de PRODUCCIÓN se encarga de . . .",
+    title: "Al aumentar rápidamente la generación de nuevo conocimiento",
     first:
-      "Elaborar los productos y servicios",
-    second: "Investigar el mercado y colocar en él lo mejor posible los productos y servicios producidos",
-    third: "Diseñar las estrategias de la organización",
-    fourth: "Gestionar al personal, formación, promociones, etc.",
-    answer: 1,
+      "Las personas saben que las fuentes de dicho conocimiento suelen ser de confianza",
+    second: "Las personas están motivadas a estudiar y aprender más cosas",
+    third: "Las personas viven con una incertidumbre que deben gestionar",
+    fourth: "Las personas están cada vez mejor informadas",
+    answer: 3,
   },
   item19: {
     id: "19",
-    title: "En el modelo piramidal de una empresarial el departamento de RECURSOS HUMANOS se encarga de . .",
+    title: "La paradoja de la Sociedad del Conocimiento hace referencia a que",
     first:
-      "Materializar productos y servicios",
+      "Pese a la amplia disponibilidad de datos e información, el individuo esta cada vez peor informado",
     second:
-      "Investigar el mercado y colocar en él lo mejor posible los productos y servicios producidos",
+      "Pese a las mejoras tecnológicas, resulta imposible aprender a manejar todo nuevo dispositivo que aparece en el mercado",
     third:
-      "Diseñar las estrategias de la organización",
+      "Pese a lo sofisticado de las técnicas analíticas de datos, su complejidad las aleja del público en general",
     fourth:
-      "Gestionar al personal, formación, promociones, planificar la plantilla, etc.",
-    answer: 4,
+      "Pese a la amplia difusión de las TICs, existen muchas zonas geográficas en el planeta donde aun no han llegado",
+    answer: 1,
   },
   item20: {
     id: "20",
-    title: "En el modelo empresarial de Anthony el nivel ESTRATÉGICO estará formado por . . .",
+    title: "Un problema de la Sociedad del Conocimientos es",
     first:
-      "Supervisores y jefes de equipos de trabajo",
+      "La dificultad para tener presencia en las principales redes sociales",
     second:
-      "Directivos de medios o de grandes áreas de la empresa",
-    third: "Directivos del nivel superior dentro de la estructura de la organización",
-    fourth: "Técnicos encargados del manejo de maquinaría de producción",
-    answer: 3,
+      "La complejidad creciente para manejar los dispositivos tecnológicos",
+    third: "Los orígenes de datos e información son cada vez más numerosos",
+    fourth: "Aumenta el número de cosas de las que no sabemos nada",
+    answer: 4,
   },
   item21: {
     id: "21",
-    title: "En el modelo empresarial de Anthony el nivel OPERATIVO estará formado por . . .",
-    first: "Supervisores y jefes de equipos de trabajo",
-    second: "Directivos de medios o de grandes áreas de la empresa",
-    third: "Directivos del nivel superior dentro de la estructura de la organización",
+    title: "Un problema de la Sociedad del Conocimientos es",
+    first: "Las redes sociales son muy numerosas",
+    second: "De entre las que sabemos o conocemos, no de todo hemos aprendido",
+    third: "Los orígenes de datos e información están cada vez más dispersos",
     fourth:
-      "Personal externo subcontratado temporalmente",
-    answer: 1,
+      "La complejidad creciente para manejar los dispositivos tecnológicos",
+    answer: 2,
   },
   item22: {
     id: "22",
-    title: "En el modelo empresarial de Anthony el nivel TÁCTICO estará formado por . . .",
+    title: "Concepto de cajanegrización",
     first:
-      "Supervisores y jefes de equipos de trabajo",
+      "oceso por el cual los avances científico/técnicos se hacen invisibles por su propio éxito",
     second:
-      "Directivos de medios o de grandes áreas de la empresa",
+      "Complejidad de los avances científico/técnicos que resultan más exitosos",
     third:
-      "Directivos del nivel superior dentro de la estructura de la organización",
+      "Deseo de comprender el funcionamiento interno de los avances científico/técnicos complejos",
     fourth:
-      "Técnicos encargados del manejo de maquinaría de producción",
-    answer: 2,
+      "Desconocimiento que se tiene de los beneficios los avances científico/técnicos",
+    answer: 1,
   },
   item23: {
     id: "23",
-    title: "Sobre las decisiones en el modelo de Anthony",
+    title: "El concepto de Cajanegrización (o Blackboxing) se refiere a que",
     first:
-      "Los niveles superiores condicionan las decisiones que se toman en los niveles inferiores",
-    second: "En cada nivel se toman las decisiones de forma independiente",
+      "Solo interesa el resultado práctico de las cosas y no su funcionamiento interno",
+    second: "El funcionamiento interno de ciertas cosas suele ser complejo",
     third:
-      "Las decisiones están condicionadas a todos los niveles por el resto de niveles",
+      "El manejo de ciertas cosas o el aprendizaje de ciertos conceptos es difícil",
     fourth:
-      "Los niveles superiores están condicionados por las decisiones que se toman en los niveles inferiores",
+      "Solo los especialistas se aprovechan realmente del beneficio de las cosas",
     answer: 1,
   },
   item24: {
     id: "24",
     title:
-      "Sobre las necesidades de información en el modelo de Anthony",
+      "El conocimiento se ha convertido en un factor de producción, por lo tanto",
     first:
-      "Toda la información se comparte por igual a todos los niveles de la empresa",
-    second: "Cada nivel jerárquico requiere de diferentes tipos de información",
-    third: "Existen niveles en los que no se requiere de información por tratarse de áreas especiales",
-    fourth: "La información ha de ser más abstracta en el nivel Táctico",
-    answer: 2,
+      "Existe un riesgo de exclusión para quienes no tengan acceso al conocimiento",
+    second: "Las empresas producen cada vez más productos",
+    third: "Los productos y servicios tienen siempre una calidad estándar",
+    fourth: "El acceso al dicho conocimiento está democratizado",
+    answer: 1,
   },
   item25: {
     id: "25",
     title:
-      "Una DECISIÓN, para serlo, debe cumplir. . .",
+      "Para salvar la brecha digital se debería tener acceso a los siguientes factores generales",
     first:
-      "Ser una elección necesariamente consiente de una entre varias opciones",
+      "Acceso a las TICs, formación para usarlas y disponibilidad de computación en la nube",
     second:
-      "Ser una elección, consciente o inconsciente, de una entre varias alternativas",
+      "Disponibilidad de computación en la nube, acceso a la red y las TICs",
     third:
-      "Ser una elección necesariamente consciente de la única alternativa posible para emprender cualquier acción",
+      "Acceso a la red y las TICs y formación o preparación para usar dichos medios",
     fourth:
-      "Ser una elección, consciente o inconsciente, de cuantas más alternativas mejor para cubrir el mayor espectro posible de acciones",
-    answer: 1,
+      "Acceso a la red, disponibilidad de computación en la nube y formación o preparación para usar dichos medios",
+    answer: 3,
   },
   item26: {
     id: "26",
-    title: "Según los 10 principios para la toma de decisiones . . .",
-    first: "Si la decisión ha sido la incorrecta no importa si se ha obtenido beneficio",
-    second: "Si hay urgencia no tienen por qué estar determinadas todas las metas u objetivos",
-    third: "Es preferible decidir bien antes que acertar",
-    fourth: "Prima acertar con la decisión para obtener el beneficio esperado",
+    title: "En última instancia, procesar y analizar datos es para",
+    first: "Tener más conocimiento",
+    second: "Aprender más",
+    third: "Tomar decisiones",
+    fourth: "Asegurar la calidad de los datos",
     answer: 3,
   },
   item27: {
     id: "27",
     title:
-      "Según los 10 principios para la toma de decisiones. . .",
+      "En un sistema de BI, el “Back-end” (BE) y el “Front-end” (FE) se refieren a",
     first:
-      "Es más importante decidir bien que acertar",
+      "Los cuadros de mando son el BE y los cubos OLAP y el Dataware House son en FE",
     second:
-      "Prima acertar con la decisión para obtener el mejor resultado posible",
-    third: "Tomar la decisión correcta siempre ha de generar el buen resultado esperado",
+      "Cubos OLAP y cuadros de mando podrían estar en el BE y en el FE según el diseño",
+    third: "El BE contendría las herramientas de consulta y el FE los procesos",
     fourth:
-      "Tomar la decisión incorrecta siempre implicara obtener un mal resultado",
-    answer: 1,
+      "Los cubos OLAP y el Dataware House son el BE y los cuadros de mando el FE",
+    answer: 4,
   },
   item28: {
     id: "28",
-    title: "En los 10 principios para la toma de decisiones se afirma que. . .",
-    first: "A la hora de plantear alternativas es importante autolimitarse para no generar en exceso",
-    second: "No por añadir más alternativas al proceso de decisión este será más rico",
-    third: "La primera alternativa suele ser optima, y hay que ser creativo a la hora de aplicarla",
+    title: "La Inteligencia de Negocios (BI - Business Intelligence) engloba",
+    first: "Todo lo que ayude a tomar mejores decisiones en los negocios",
+    second: "Las bases de datos con información relevante del negocio",
+    third: "Las estrategias planteadas por la gerencia para mejorar el negocio",
     fourth:
-      "La primera alternativa puede no ser la mejor, se recomienda ser creativo y generar más alternativas",
-    answer: 4,
+      "Los procesos de análisis que ayudan a generar información útil sobre el negocio",
+    answer: 1,
   },
   item29: {
     id: "29",
     title:
-      "En los 10 principios para la toma de decisiones, sobre sus consecuencias. . .",
-    first: "Lo fundamental es valorar la eficacia de la decisión final",
+      "La inteligencia de negocios busca identificar las relaciones de los hechos presentados con la finalidad de",
+    first: "Dirigir las operaciones hacia el objetivo deseado",
     second:
-      "Lo fundamental es valorar la eficacia y la eficiencia de la decisión final",
-    third: "Lo fundamental es valorar tanto las consecuencias de la decisión final como sus riesgos",
-    fourth: "Lo fundamental es que la consecuencia prevista sea beneficiosa para la organización",
-    answer: 3,
+      "Identificar los mejores objetivos que se puede marcar la organización",
+    third: "Conocer que acciones han sido las más beneficiosas en el pasado",
+    fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
+    answer: 1,
   },
   item30: {
     id: "30",
     title:
-      "Los 10 principios para la toma de decisiones recomiendan . . .",
-    first: "Disponer de varias alternativas puede confundir al decisor",
+      "La inteligencia de negocios es el conjunto de conceptos y métodos para",
+    first: "Mejorar la toma de decisiones en los negocios",
     second:
-      "Filtrar la información y no dar valor a suposiciones o prejuicios",
-    third: "No descartar información menos relevante, puede ser útil a veces",
-    fourth: "No valorar las consecuencias a largo plazo de una decisión ya que es muy difícil de hacer ese tipo de cálculos",
-    answer: 2,
+      "Identificar los mejores objetivos que se puede marcar la organización",
+    third: "Conocer que acciones han sido las más beneficiosas en el pasado",
+    fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
+    answer: 1,
   },
   item31: {
     id: "31",
-    title: "Según los 10 principios para la toma de decisiones . . .",
-    first: "Disponer de varias alternativas puede confundir al decisor",
-    second: "En caso de incertidumbre, habrá que identificarla y gestionarla",
+    title: "Para la inteligencia de negocios un Hecho es",
+    first: "Cualquier acción ejecutiva de la dirección de la empresa",
+    second: "Una transacción que puede ser almacenada o registrada",
     third:
-      "En situaciones de incertidumbre es mejor no asumir riesgos",
-    fourth: "Las consecuencias a medio/largo plazo de una decisión no se pueden valorar",
+      "Una variable en función de la cual se estudia una métrica de interés",
+    fourth: "Un KPI o key performance indicator",
     answer: 2,
   },
   item32: {
     id: "32",
-    title: "Según los 10 principios para la toma de decisiones . . .",
-    first: "Disponer de varias alternativas puede confundir al decisor",
+    title: "Se dice que Business Intelligence es un término paraguas porque",
+    first: "Permite desplegar con facilidad metodologías de gestión de datos",
     second:
-      "En caso de incertidumbre, habrá que identificarla y gestionarla",
+      "Protege a las organizaciones que lo usan al competir con mejor información",
     third:
-      "En situaciones de incertidumbre es mejor no asumir riesgos",
+      "El conocimiento que genera es como una capa protectora para la organización que dispone de él",
     fourth:
-      "Las consecuencias a medio/largo plazo de una decisión no se pueden valorar",
-    answer: 2,
+      "Engloba un conjunto variado de conceptos, métodos y herramientas para tomar mejores decisiones",
+    answer: 4,
   },
   item33: {
     id: "33",
     title:
-      "Consideraciones de EFICACIA al tomar una decisión",
-    first: "Son las que tienen que ver con el cumplimiento de los objetivos que se quieren alcanzar",
-    second: "Son las que tienen que ver con la optimización de los recursos que cuesta aplicar la decisión",
-    third: "Son las que tienen que ver con la organización jerarquica de la organización",
-    fourth: "Son los que tienen que ver con el trato a las personas a las que afectará la decisión",
-    answer: 1,
+      "Según Hans Peter Luhn, los Sistemas Automáticos (o sistemas de información) deben tener las siguientes funciones",
+    first: "Capturar información, codificarla, distribuirla y validarla",
+    second: "Capturar información y distribuirla",
+    third: "Capturar información, distribuirla y validarla",
+    fourth: "Capturar información, codificarla y distribuirla",
+    answer: 4,
   },
   item34: {
     id: "34",
     title:
-      "Consideraciones de EFICIENCIA al tomar una decisión",
+      "En un proyecto de implantación de un sistema de BI, el ROI se refiere a",
     first:
-      "Son las que tienen que ver con el cumplimiento de los objetivos que se quieren alcanzar",
+      "El ratio entre el beneficio esperado y el coste de implantación del sistema que, idealmente, en el medio plazo debería ser creciente",
     second:
-      "Son las que tienen que ver con la optimización de los recursos que cuesta aplicar la decisión",
+      "El ratio entre el beneficio esperado y el coste de implantación del sistema que, idealmente, en el medio plazo debería ser constante",
     third:
-      "Son las que tienen que ver con la organización jerarquica de la organización",
+      "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser constante e igual a 1",
     fourth:
-      "Son los que tienen que ver con el trato a las personas a las que afectará la decisión",
-    answer: 2,
+      "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser decreciente",
+    answer: 1,
   },
   item35: {
     id: "35",
-    title: "Consideraciones ÉTICAS al tomar una decisión",
-    first: "Son las que tienen que ver con el cumplimiento de los objetivos que se quieren alcanzar",
-    second: "Son las que tienen que ver con la optimización de los recursos que cuesta aplicar la decisión",
-    third: "Son las que tienen que ver con la organización jerarquica de la organización",
-    fourth: "Son los que tienen que ver con el trato a las personas a las que afectará la decisión",
-    answer: 4,
+    title: "Los beneficios ESTRATÉGICOS del Business Intelligence son",
+    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
+    second: "Mejorar la calidad de los datos",
+    third: "Mejorar la planificación de la empresa",
+    fourth: "Mejorar la posición competitiva",
+    answer: 3,
   },
   item36: {
     id: "36",
-    title: "¿En cuál de las siguientes situaciones se debe iniciar un proceso de toma de decisión?",
-    first: "Al identificar un problema, una discrepancia o una oportunidad",
-    second: "Al iniciar una campaña de marketing o de producción importante",
-    third: "Al cambiar los directivos de nivel medio de la organización",
-    fourth: "Cuando la gerencia decide que hay que hacerlo",
-    answer: 1,
+    title: "Los beneficios INTANGIBLES del Business Intelligence son",
+    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
+    second: "Mejorar la calidad de los datos",
+    third: "Mejorar la planificación",
+    fourth: "Mejorar la posición competitiva",
+    answer: 4,
   },
   item37: {
     id: "37",
-    title: "El proceso de toma de decisiones termina . . .",
-    first: "Aplicando la mejor de entre las opciones consideradas",
-    second: "Evaluando el resultado de aplicar la opción seleccionada",
-    third: "Determinado cual es la mejor alternativa de entre todas las disponibles",
-    fourth: "Cuando el responsable de tomar la decisión cierra el proceso",
-    answer: 2,
+    title: "Los beneficios TANGIBLES del Business Intelligence son",
+    first: "Mejorar los ingresos y ahorrar en gastos y tiempo",
+    second: "Mejorar la calidad de los datos",
+    third: "Mejorar la planificación",
+    fourth: "Mejorar la posición competitiva",
+    answer: 1,
   },
   item38: {
     id: "38",
-    title: "Sobre cómo analizar opciones en una decisión para elegir la más adecuada . . .",
+    title: "Con respecto a la calidad de la información",
     first:
-      "Recopilar mucha información puede ser perjudicial para poder evaluar la mejor",
+      "Solamente es responsable de dicha calidad el personal de las áreas TICs o de sistemas de de información",
     second:
-      "Hay que clasificar las alternativas según se hayan evaluado considerando pros y contras",
+      "Son parte responsable de dicha calidad todas las personas de todas las área que interactúen con el sistema",
     third:
-      "Siempre se busca maximizar el resultado de la decisión",
-    fourth: "Siempre se busca optimizar",
+      "La responsabilidad de asegurar esa calidad recae fundamentalmente en los ejecutivos de la organización",
+    fourth: "Es un problema estratégico que requiere de personal",
     answer: 2,
   },
   item39: {
     id: "39",
     title:
-      "Las decisiones ESTRUCTURADAS se caracterizan por. . .",
-    first: "Orientadas al largo plazo, complejas de programar y poco frecuentes",
-    second: "Orientadas al corto plazo, fáciles de programar y frecuentes",
+      "Cuando la fuente del error en la información está en el Almacén de Datos, es porque",
+    first: "Las consultas están siendo mal implementadas",
+    second: "Los cubos pueden estar siendo manipulados incorrectamente",
     third:
-      "Orientadas al largo plazo, complejas de programar y frecuentes",
-    fourth: "Orientadas al largo plazo, fáciles de programar y frecuentes",
+      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
+    fourth: "Los datos se están introduciendo incorrectamente",
     answer: 2,
   },
   item40: {
     id: "40",
     title:
-      "Las decisiones NO-ESTRUCTURADAS se caracterizan por. . .",
-    first: "Orientadas al largo plazo, complejas de generalizar y poco frecuentes",
-    second: "Orientadas al medio y corto plazo, complejas de generalizar y poco frecuentes",
+      "Cuando la fuente del error en la información está en el proceso ETL, es porque",
+    first: "Las consultas están siendo mal implementadas",
+    second: "Los cubos pueden estar siendo manipulados incorrectamente",
     third:
-      "Orientadas al largo plazo, complejas de generalizar y muy frecuentes",
-    fourth: "Orientadas al medio y corto plazo, complejas de generalizar y muy frecuentes",
-    answer: 1,
+      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
+    fourth: "Los datos se están introduciendo incorrectamente",
+    answer: 3,
   },
   item41: {
     id: "41",
     title:
-      "Sobre las decisiones de tipo “No-Estructurado”",
-    first: "Se dan frecuentemente y en los niveles superiores de la empresa",
-    second: "Son poco frecuentes y fáciles de programar al no ser tan cotidianas",
+      "Cuando la fuente del error en la información está en el sistema OLAP, es porque",
+    first: "Las consultas están siendo mal implementadas",
+    second: "Los cubos pueden estar siendo manipulados incorrectamente",
     third:
-      "Son poco frecuentes y se orientan al largo plazo, se dan en los niveles superiores",
-    fourth: "Son difíciles de programar y generalizar por estar orientadas a plazos muy cortos",
-    answer: 3,
+      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
+    fourth: "Los datos se están introduciendo incorrectamente",
+    answer: 1,
   },
   item42: {
     id: "42",
     title:
-      "Al decidir en un contexto de certidumbre es falso que . . .",
-    first: "Se asume un riesgo cuya probabilidad es deseable haber calculado",
-    second: "Es una situación ideal que no suele darse",
+      "Cuando la fuente del error en la información está en el sistema OLTP, es porque",
+    first: "Las consultas están siendo mal implementadas",
+    second: "Los cubos pueden estar siendo manipulados incorrectamente",
     third:
-      "Se tiene conocimiento total del problema y sus variables",
-    fourth: "Se conocen las consecuencias de cada posible opción",
-    answer: 1,
+      "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
+    fourth: "Los datos se están introduciendo incorrectamente",
+    answer: 4,
   },
   item43: {
     id: "43",
     title:
-      "Sobre la Sociedad de la Información/Conocimiento es falso que . . .",
-    first: "Se busca fomentar el aprendizaje y la inteligencia",
+      "Cuando la información disponible para tomar decisiones no es válida y rigurosa",
+    first: "Afortunadamente el error suele ser fácil de detectar",
     second:
-      "Lo importante es acumular todo el conocimiento que sea posible",
+      "Los errores en la información casi siempre pueden aislarse antes de que se propaguen por la organización",
     third:
-      "La producción de riqueza se basa en el conocimiento, en lo que “se sabe”",
+      "El origen del error está en quien introduce los datos ne el sistemas",
     fourth:
-      "Se debe al avance continuo de las tecnologías de la información y la comunicacióna",
-    answer: 2,
+      "No se puede hacer responsable de una mala decisión a quien la haya tomado en base a dicha información incorrecta",
+    answer: 4,
   },
   item44: {
     id: "44",
     title:
-      "El trabajador del conocimiento es un profesional que . . .",
+      "¿Por qué se pierde competitividad cuando un sistema B.I. funciona mal?",
     first:
-      "Se dedica a resolver todo tipo de problemas cotidianos dentro de su ámbito o sector",
-    second: "Se identifican con el cliente o empleador que les demanda productos o servicios",
-    third: "Tiene un conocimiento específico que utiliza para realizar un determinado trabajo",
-    fourth: "Su agenda la marca siempre el cliente para el que trabaja",
-    answer: 3,
+      "Porque la competencia sí los usa y tomara mejores decisiones que nuestra organización",
+    second: "Por el coste de las malas decisiones tomadas",
+    third: "Porque el sistema deja de usarse",
+    fourth: "Porque asegurar la calidad de la información supone un gasto",
+    answer: 1,
   },
   item45: {
     id: "45",
     title:
-      "El concepto de “Sabiduría empresarial” hace referencia a . . .",
+      "Cuando en un sistema de B.I. la información es errónea la toma de malas decisiones implica",
     first:
-      "El aprendizaje e inteligencia en cada puesto de trabajo de la organización",
+      "Un sobre coste al asumir esos errores y la perdida de confianza en el sistema",
     second:
-      "El conocimiento acumulado por los gestores y/o ejecutivos de la empresa",
+      "Un sobre coste al asumir esos errores y un uso continuado de un sistema que funciona mal",
     third:
-      "La información acumulada en todas las bases de datos de la empresa",
+      "Un sobre coste al asumir esos errores y la activación de protocolos de gestión de la calidad de los datos",
     fourth:
-      "La información accesible en todas las bases de datos de la empresa",
+      "Un sobre coste al asumir esos errores y una perdida de tiempo al tratar de asegurar la veracidad de la información en el futuro",
     answer: 1,
   },
   item46: {
     id: "46",
-    title: "La idea de la "Paradoja de la productividad" se refiere a que. . .",
+    title: "El proceso para asegurar la calidad de la información consiste en",
     first:
-      "Las Tecnologías de la Información no mejoran la productividad en las empresas que las aplican",
+      "Hacer comprobaciones periódicamente a distintos niveles y en distinto periodos de tiempo",
     second:
-      "Las Tecnologías de la Información generan importantes mejoras en la productividad en las empresas que las aplican",
+      "Hacer comprobaciones durante la instalación del sistema de información para dejarlo bien calibrado",
     third:
-      "Las Tecnologías de la Información mejoran la productividad a corto plazo",
+      "Hacer comprobaciones manuales, esporádicas y al azar para detectar posibles errores dispersos",
     fourth:
-      "Las Tecnologías de la Información se aplican en áreas improductivas",
+      "Hacer comprobaciones de los totales y comprobar si son o no correctos",
     answer: 1,
   },
   item47: {
     id: "47",
-    title: "Sobre los conceptos de Identidad y Reputación. . .",
-    first: "Identidad es quién soy y Reputación es quién creen los demás que soy"
+    title: "¿Para qué se utilizan los KPIs?",
+    first: "Para monitorizar el funcionamiento de las consultas OLAP",
     second:
-      "Identidad es mi opinión sobre los demás y Reputación es mi opinión sobre mi mismo",
-    third: "Identidad es la consideración social sobre algo o alguien y Reputación es la información disponible sobre algo o alguien",
-    fourth: "Identidad es la información disponible sobre algo o alguien y Reputación es la información disponible sobre terceras personas o cosas",
-    answer: 1,
+      "Para comprobar si se están alcanzando los objetivos que se han establecido",
+    third: "Para asegurar la calidad de los datos empresariales",
+    fourth: "Para medir los tiempos de respuesta de las operaciones ETL",
+    answer: 2,
   },
   item48: {
     id: "48",
-    title: "Sobre el rol de CIO. . .",
+    title: "Un KPI es",
     first:
-      "Es un Gerente de Sistemas (jefe de Informática) que además asume tareas ejecutivas y de liderazgo",
-    second: "Es análogo al Gerente de Sistemas (jefe de Informática) de una empresa",
+      "Una medida o indicador del negocio de importancia para el desarrollo del mismo",
+    second: "Una medida o indicador del rendimiento del Data Warehouse",
     third:
-      "Se encuentra en el nivel operativo del modelo del Anthony",
-    fourth: "Es un Gerente de Sistemas (jefe de Informática) formado en las últimas tecnologías para poderaplicarlas",
+      "Una medida o indicador del nivel de calidad de los datos de la organización",
+    fourth: "Una medida o indicador del funcionamiento del sistema de gestión",
     answer: 1,
   },
   item49: {
     id: "49",
-    title: "Sobre las responsabilidades el CIO (jefe de sistemas de información) de una empresa",
-    first: "Debe liderar los los cambios e innovaciones en TICs dentro de la organización",
-    second: "Debe atender las solicitudes de información de la gerencia",
-    third: "Debe coordinar el resto de áreas funcionales de la empresa (producción, marketing, etc.)",
+    title: "Todo KPI obligatoriamente debe cumplir",
+    first: "Ser una magnitud cuantificable con un valor numérico",
+    second: "Ser de interés para el nivel ejecutivo de la empresa",
+    third: "Ser un indicador del rendimiento de la competencia",
     fourth:
-      "Debe cambiar la tinta de las impresoras o resetear los equipos cuando se cuelgan",
+      "Ser un indicador del performance de sistema de información corporativo",
     answer: 1,
   },
   item50: {
     id: "50",
-    title: "[#] Un líder es. . .",
-    first: "Quien dirige un grupo y va a la cabeza del mismo",
-    second: "Quien controla todas las acciones de sus subordinados para que no incurran en errores",
-    third: "Quien ordena en todo momento lo que hay que hacer por encima de otras opiniones",
-    fourth: "Quien respalda a los clientes de la empresa para fidelizarlos",
-    answer: 1,
+    title: "Todo KPI obligatoriamente debe cumplir",
+    first: "Ser una magnitud cualitativa",
+    second: "Ser de interés para el nivel operativo de la organización",
+    third: "Ser definido y calculado con una formula concreta",
+    fourth: "Ser un indicador del performance de los procesos ETL",
+    answer: 3,
   },
   item51: {
     id: "51",
-    title: "[#] Un líder es. . .",
-    first: "Quien proporciona visión y dirección a un grupo o equipo",
-    second: "Quien se responsabiliza de que las cosas se hagan correctamente",
-    third: "Quien siempre dirige de cerca las acciones del equipo que dirige",
-    fourth: "Quien, por encima de otras opiniones, ordena en todo momento lo que hay que hacer",
-    answer: 1,
+    title: "Todo KPI obligatoriamente debe cumplir",
+    first: "Ser una magnitud cualitativo o cuantitativa",
+    second: "Ser de interés para el nivel operativo de la empresa",
+    third: "Ser un indicador del performance de la competencia",
+    fourth: "Ser una medición de una de las actividades críticas de la empresa",
+    answer: 4,
+  },
+  item52: {
+    id: "52",
+    title: "La llamada “Ciencia de datos” incluye disciplinas como:",
+    first:
+      "Minería de datos, Inteligencia Artificial, Aprendizaje automático y Business Intelligence",
+    second: "Minería de datos, cálculo matemático e Inteligencia Artificial",
+    third: "Minería de datos, Inteligencia Artificial y Aprendizaje automático",
+    fourth: "Minería de datos, Inteligencia Artificial y Business Intelligence",
+    answer: 3,
+  },
+  item53: {
+    id: "53",
+    title: "Los métodos descriptivos de análisis de datos incluyen",
+    first: "Asociación y Clasificación",
+    second: "Agrupamiento y Asociación",
+    third: "Clasificación y Regresión",
+    fourth: "Regresión y Agrupamiento",
+    answer: 2,
+  },
+  item54: {
+    id: "54",
+    title: "Los métodos predictivos de análisis de datos incluyen",
+    first: "Asociación y Clasificación",
+    second: "Agrupamiento y Asociación",
+    third: "Clasificación y Regresión",
+    fourth: "Regresión y Agrupamiento",
+    answer: 3,
+  },
+  item55: {
+    id: "55",
+    title: "El Business Analytics trata de responder preguntas como:",
+    first:
+      "¿Qué pasaría si el escenario fuera otro? o ¿Cuando sucedieron las cosas?",
+    second: "¿Qué ha sucedido? o ¿Por qué suceden las cosas?",
+    third: "¿Cuando sucedieron las cosas? o ¿Quién hizo que sucedieran?",
+    fourth:
+      "¿Por qué suceden las cosas? o ¿Qué pasaría si el escenario fuera otro?",
+    answer: 4,
+  },
+    item56: {
+    id: "56",
+    title: "El Business Analytics trata de responder preguntas como:",
+    first:
+      "¿Qué pasaría si el escenario fuera otro? o ¿Cuando sucedieron las cosas?",
+    second: "¿Qué ha sucedido? o ¿Por qué suceden las cosas?",
+    third: "¿Cuando sucedieron las cosas? o ¿Quién hizo que sucedieran?",
+    fourth:
+      "¿Por qué suceden las cosas? o ¿Qué pasaría si el escenario fuera otro?",
+    answer: 4,
   },
 };
+
+   
