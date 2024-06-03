@@ -1,26 +1,26 @@
 const data = {
-  item1: {
-    id: "1",
-    title: "Un sistema es un conjunto cosas que ...",
-    first: "Están relacionadas ordenadamente para procurar un determinado objetivo",
+  item16: {
+    id: "16",
+    title: "¿Cuál de las siguientes no es una actividad de RRHH centrada en las personas según el modelo propuesto?",
+    first: "Planificación de los recursos humanos",
     second:
-      "Buscan alcanzar un mismo objetivo aunque no sigan un orden concreto",
+      "Investigación y sistemas de información en RRHH.",
     third:
-      "Se conectan entre sí, aunque pueden estar pasivas sin hacer una en particular",
+      "Gestión del desempeño.",
     fourth:
-      "Se relacionan por ser de la misma naturaleza o estar compuestos de los mismos materiales principales",
-    answer: 1,
+      "Planificación y gestión psicosocial de la extinción.",
+    answer: 2,
   },
-  item2: {
-    id: "2",
-    title: "Un sistema es un conjunto de elementos que ...",
+  item17: {
+    id: "17",
+    title: "¿Qué enfoque se recomienda para la evaluación del rendimiento en RRHH?",
     first:
-      "Están interconectados según un orden y hacen alguna función de interés",
+      "Sistemas de evaluación estándar sin adaptación.",
     second:
-      "Ocupan un mismo lugar estén o no interrelacionados",
-    third: "Están conectados pero pueden estar inertes sin hacer una función concreta",
+      "Uso de sistemas de evaluación personalizados.",
+    third: "Evitar la evaluación para no afectar la moral.",
     fourth:
-      "Se caracterizan por una cualidad común (Mismo color, mismo peso, etc.)",
-    answer: 1,
+      "Evaluación basada únicamente en resultados financieros.",
+    answer: 2,
   },
 };
