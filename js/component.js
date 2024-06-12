@@ -38,6 +38,7 @@ class Component {
 
     if (answer !== this.answer) {
       li.style.textDecoration = "line-through";
+      li.style.backgroundColor = "#FF2525";
       if (!this.check) {
         document.getElementById("i-score").innerHTML =
           parseInt(document.getElementById("i-score").innerHTML) + 1;
