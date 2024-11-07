@@ -233,7 +233,7 @@ const data = {
     second: "890",
     third: "888",
     fourth: "Ninguna de las anteriores",
-    answer: 3,
+    answer: 4,
   },
   item22: {
     id: "22",
