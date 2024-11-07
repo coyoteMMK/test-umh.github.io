@@ -240,7 +240,7 @@ const data = {
     second: "Broadcast",
     third: "Red",
     fourth: "Ninguna de las anteriores",
-    answer: 1,
+    answer: 3,
   },
   item71: {
     id: "71",
@@ -321,7 +321,7 @@ const data = {
     second: "5",
     third: "32",
     fourth: "Ninguna de las Anteriores",
-    answer: 2,
+    answer: 1,
   },
   item80: {
     id: "80",
