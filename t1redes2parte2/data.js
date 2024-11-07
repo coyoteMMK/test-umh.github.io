@@ -150,7 +150,7 @@ const data = {
     second: "16",
     third: "24",
     fourth: "Ninguna de las anteriores",
-    answer: 1,
+    answer: 2,
   },
   item61: {
     id: "61",
