@@ -222,7 +222,7 @@ const data = {
     second: "Una dirección de host pública",
     third: "Una dirección de red privada",
     fourth: "Ninguna de las Anteriores",
-    answer: 1,
+    answer: 3,
   },
   item69: {
     id: "69",
