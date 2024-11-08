@@ -150,7 +150,7 @@ const data = {
     second: "16",
     third: "24",
     fourth: "Ninguna de las anteriores",
-    answer: 1,
+    answer: 2,
   },
   item61: {
     id: "61",
@@ -357,7 +357,7 @@ const data = {
     second: "8",
     third: "24",
     fourth: "32",
-    answer: 8,
+    answer: 3,
   },
   item84: {
     id: "84",
@@ -384,7 +384,7 @@ const data = {
     second: "32",
     third: "8",
     fourth: "16",
-    answer: 1,
+    answer: 3,
   },
   item87: {
     id: "87",
