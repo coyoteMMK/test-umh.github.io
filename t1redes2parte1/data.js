@@ -224,7 +224,7 @@ const data = {
     second: "856",
     third: "890",
     fourth: "Ninguna de las anteriores",
-    answer: 1,
+    answer: 2,
   },
   item21: {
     id: "21",
@@ -233,7 +233,7 @@ const data = {
     second: "890",
     third: "888",
     fourth: "Ninguna de las anteriores",
-    answer: 2,
+    answer: 4,
   },
   item22: {
     id: "22",
