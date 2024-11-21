@@ -293,7 +293,7 @@ item70: {
     first: "Se debe considerar dónde se ubican los medios de almacenamiento y los servidores de datos para determinar el impacto del tráfico en la red.",
     second: "El tráfico entre servidor y servidor es el tráfico generado entre los dispositivos de almacenamiento de datos en la red.",
     third: "Los servidores que necesitan acceso frecuente a ciertos recursos se deben ubicar a muy corta distancia",
-    fourth: "Los switches seleccionados para los centros de datos suelen ser del mismo tipo que el resto de switches de acceso,
+    fourth: "Los switches seleccionados para los centros de datos suelen ser del mismo tipo que el resto de switches de acceso",
     answer: 4,
   },
 item71: {
