@@ -244,7 +244,7 @@ item64: {
   },
 item65: {
     id: "65",
-    title: Indica cual de las siguientes no es una característica de la definición de robustez",
+    title: "Indica cual de las siguientes no es una característica de la definición de robustez",
     first: "Sencillez",
     second: "Escalabilidad",
     third: "Eficiencia",
