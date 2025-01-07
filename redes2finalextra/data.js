@@ -193,7 +193,7 @@ item1: {
 
   item26: {
     id: "26",
-    title: "Indique cuál de las siguientes medidas es la más efectiva para proteger una LAN inalámbrica:",
+    title: "Indique cuál de las siguientes medidas es la más efectiva para proteger una LAN inalámbrica: (NO ES DE ESTE TEMA CREO)",
     first: "Camuflaje SSID",
     second: "Filtrado de direcciones MAC",
     third: "Seguridad WLAN - WPA o WPA2",
@@ -203,7 +203,7 @@ item1: {
 
   item27: {
     id: "27",
-    title: "Los puntos de acceso de una red WLAN deben situarse:",
+    title: "Los puntos de acceso de una red WLAN deben situarse: (NO ES DE ESTE TEMA CREO)",
     first: "En cuartos inaccesibles",
     second: "Cerca del techo en el centro de cada área de cobertura",
     third: "En las paredes para evitar refracciones",
@@ -213,7 +213,7 @@ item1: {
 
   item28: {
     id: "28",
-    title: "Indica cuál de las siguientes propiedades no emite un punto de acceso en sus beacons:",
+    title: "Indica cuál de las siguientes propiedades no emite un punto de acceso en sus beacons: (NO ES DE ESTE TEMA CREO)",
     first: "SSID",
     second: "Velocidades admitidas",
     third: "Implementación de seguridad",
@@ -223,7 +223,7 @@ item1: {
 
   item29: {
     id: "29",
-    title: "Las redes inalámbricas que operan sin necesidad de puntos de acceso se denominan:",
+    title: "Las redes inalámbricas que operan sin necesidad de puntos de acceso se denominan: (NO ES DE ESTE TEMA CREO)",
     first: "Sin infraestructura",
     second: "Ad-hoc",
     third: "Hand-over",
@@ -233,7 +233,7 @@ item1: {
 
   item30: {
     id: "30",
-    title: "En la banda de 2.4GHz, la portadora de cada canal tiene una distancia al siguiente canal de:",
+    title: "En la banda de 2.4GHz, la portadora de cada canal tiene una distancia al siguiente canal de: (NO ES DE ESTE TEMA CREO)",
     first: "5MHz",
     second: "10MHz",
     third: "25MHz",
@@ -243,7 +243,7 @@ item1: {
 
   item31: {
     id: "31",
-    title: "Indica cuál de los siguientes estándares de WiFi permite la transferencia hasta 54Mbps y opera en la banda de 2.4GHz:",
+    title: "Indica cuál de los siguientes estándares de WiFi permite la transferencia hasta 54Mbps y opera en la banda de 2.4GHz: (NO ES DE ESTE TEMA CREO)",
     first: "802.11a",
     second: "802.11b",
     third: "802.11g",
@@ -253,7 +253,7 @@ item1: {
 
   item32: {
     id: "32",
-    title: "El estándar de Bluetooth se define para redes de tipo:",
+    title: "El estándar de Bluetooth se define para redes de tipo: (NO ES DE ESTE TEMA CREO)",
     first: "LAN",
     second: "MAN",
     third: "PAN",
