@@ -35,7 +35,7 @@ const data = {
       "Hace falta que el monitor esté vacío y no haya procesos esperando en ninguna cola de condición.",
     fourth:
       "Ninguna del resto de las contestaciones es correcta.",
-    answer: 2,
+    answer: 3,
   },
   item4: {
     id: "4",
@@ -237,3 +237,4 @@ const data = {
     answer: 2,
   },
 };
+
