@@ -10,7 +10,7 @@ const data = {
     },
     item2: {
       id: "2",
-      title: "En un sistema operativo con nodos-i, sabiendo que el tamaño máximo de un archivo es de 65800 Kbytes, ¿cuántas entradas directas hay en el i-nodo?",
+      title: "En un sistema operativo se utiliza una estructura de nodos-i parecida a la Unix. El tamaño de bloque es de 1024 bytes y el tamaño de los punteros a bloques es de 32 bits. El nodo-i  tiene un cierto número de entradas de direccionamiento directo, una de direccionamiento indirecto simple y otra direccionamiento indirecto doble. Sabiendo que el tamaño máximo de un archivo es de 65800 Kbytes, ¿cuántas entradas directas hay en el i-nodo?",
       first: "10",
       second: "12",
       third: "8",
